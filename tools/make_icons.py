@@ -1,64 +1,68 @@
-"""Maakt de PNG-iconen voor de PWA in site/icons/ (zelfde ontwerp als site/icon.svg).
+"""Maakt alle app-iconen uit één ontwerp (variant 1: witte marker met groene wandelschoen).
 
-Eenmalig nodig, niet in requirements.txt:
-    pip install pillow
+Schrijft:
+  site/icon.svg                      favicon (afgeronde hoeken)
+  site/icons/icon-192.png            manifest, "any"
+  site/icons/icon-512.png            manifest, "any"
+  site/icons/icon-maskable-512.png   manifest, "maskable" (volle achtergrond, inhoud in veilige zone)
+  site/icons/apple-touch-icon.png    iOS (volle achtergrond; iOS rondt zelf af)
+
+PNG's worden gerenderd met qlmanage (ingebouwd in macOS):
     python tools/make_icons.py
 """
 
-import math
 import os
+import shutil
+import subprocess
+import sys
+import tempfile
 
-from PIL import Image, ImageDraw
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from make_icon_variants import GREEN, WHITE, boot_in, pin  # noqa: E402
 
-GREEN = (0x2F, 0x6B, 0x3F, 255)
-WHITE = (255, 255, 255, 255)
-OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "site", "icons")
-SS = 4  # supersampling voor gladde randen
-
-
-def pin_polygon(cx, cy, r, tip_y, steps=180):
-    """Druppelvormige pin: cirkel (cx, cy, r) met een punt naar beneden bij tip_y."""
-    d = tip_y - cy
-    a = math.asin(r / d)  # hoek van de raaklijnen vanaf de punt
-    start = math.pi / 2 + (math.pi / 2 - a)  # raakpunt links-onder
-    pts = [(cx, tip_y)]
-    sweep = 2 * math.pi - 2 * (math.pi / 2 - a)
-    for i in range(steps + 1):
-        t = start + sweep * i / steps
-        pts.append((cx + r * math.cos(t), cy + r * math.sin(t)))
-    return pts
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SITE = os.path.join(ROOT, "site")
+ICONS = os.path.join(SITE, "icons")
 
 
-def draw(size, rounded, scale=1.0):
-    S = size * SS
-    img = Image.new("RGBA", (S, S), (0, 0, 0, 0))
-    d = ImageDraw.Draw(img)
-    u = S / 64  # ontwerp is 64x64
-    if rounded:
-        d.rounded_rectangle([0, 0, S - 1, S - 1], radius=14 * u, fill=GREEN)
-    else:
-        d.rectangle([0, 0, S, S], fill=GREEN)
-
-    def tr(x, y):  # schalen rond het midden (voor de maskable versie)
-        return (32 + (x - 32) * scale) * u, (32 + (y - 32) * scale) * u
-
-    poly = [tr(x, y) for x, y in pin_polygon(32, 30.5, 12, 52)]
-    d.polygon(poly, fill=WHITE)
-    cx, cy = tr(32, 30.5)
-    r = 4.5 * scale * u
-    d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=GREEN)
-    return img.resize((size, size), Image.LANCZOS)
+def design(rounded: bool, scale: float = 1.0) -> str:
+    rx = ' rx="14"' if rounded else ""
+    content = pin(32, 26, 19, 58, WHITE) + boot_in(32, 26, 31, GREEN, WHITE)
+    if scale != 1.0:
+        off = 32 * (1 - scale)
+        content = f'<g transform="translate({off:.2f} {off:.2f}) scale({scale})">{content}</g>'
+    return (
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">'
+        f'<rect width="64" height="64"{rx} fill="{GREEN}"/>{content}</svg>\n'
+    )
 
 
-def main():
-    os.makedirs(OUT, exist_ok=True)
-    draw(192, rounded=True).save(os.path.join(OUT, "icon-192.png"))
-    draw(512, rounded=True).save(os.path.join(OUT, "icon-512.png"))
-    # maskable: volle achtergrond, pin binnen de veilige zone (80%)
-    draw(512, rounded=False, scale=0.9).save(os.path.join(OUT, "icon-maskable-512.png"))
-    # iOS rondt zelf af en wil geen transparantie
-    draw(180, rounded=False).convert("RGB").save(os.path.join(OUT, "apple-touch-icon.png"))
-    print("Iconen geschreven naar", OUT)
+def render(svg: str, size: int, dest: str) -> None:
+    with tempfile.TemporaryDirectory() as tmp:
+        src = os.path.join(tmp, "icon.svg")
+        with open(src, "w", encoding="utf-8") as f:
+            f.write(svg)
+        subprocess.run(["qlmanage", "-t", "-s", str(size), "-o", tmp, src],
+                       check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        out = src + ".png"
+        if not os.path.exists(out):
+            raise RuntimeError(f"qlmanage maakte geen PNG voor {dest}")
+        shutil.move(out, dest)
+
+
+def main() -> None:
+    if shutil.which("qlmanage") is None:
+        sys.exit("qlmanage niet gevonden; dit script werkt alleen op macOS.")
+    os.makedirs(ICONS, exist_ok=True)
+    rounded = design(rounded=True)
+    full = design(rounded=False)
+    with open(os.path.join(SITE, "icon.svg"), "w", encoding="utf-8") as f:
+        f.write(rounded)
+    render(rounded, 192, os.path.join(ICONS, "icon-192.png"))
+    render(rounded, 512, os.path.join(ICONS, "icon-512.png"))
+    render(design(rounded=False, scale=0.9), 512, os.path.join(ICONS, "icon-maskable-512.png"))
+    render(full, 180, os.path.join(ICONS, "apple-touch-icon.png"))
+    print("Iconen geschreven naar", ICONS)
 
 
 if __name__ == "__main__":

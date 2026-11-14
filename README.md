@@ -81,7 +81,7 @@ De site is een Progressive Web App: hij kan als icoon op het startscherm en open
 
 Zonder verbinding toont de app de laatst geladen tochten met een melding net boven de tabbalk; de kaart werkt offline niet. De service worker (`site/sw.js`) haalt altijd eerst de nieuwste versie van het netwerk; bij elke deploy krijgt hij een nieuwe versie (commit-hash), zodat oude caches worden opgeruimd.
 
-De iconen in `site/icons/` worden gemaakt met `tools/make_icons.py` (vereist `pip install pillow`).
+Het icoon (marker met wandelschoen) en alle formaten in `site/icons/` plus `site/icon.svg` worden gemaakt met `python3 tools/make_icons.py` (macOS, gebruikt het ingebouwde `qlmanage`). Ontwerpvarianten staan in `tools/icon-varianten/` (`tools/make_icon_variants.py`).
 
 ## Thuisadres aanpassen
 
