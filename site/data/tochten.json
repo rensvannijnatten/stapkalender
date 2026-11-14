@@ -1,8 +1,16 @@
 {
- "generated": "2026-11-14T20:28:37+01:00",
+ "generated": "2026-11-14T20:45:21+01:00",
  "from": "2026-11-14",
  "until": "2027-01-13",
  "sources": {
+  "wsvl": {
+   "ok": true,
+   "count": 168
+  },
+  "kwbn": {
+   "ok": true,
+   "count": 85
+  },
   "adeps": {
    "ok": true,
    "count": 49
