@@ -1,0 +1,83 @@
+name: Tochten bijwerken en site publiceren
+
+on:
+  schedule:
+    - cron: "17 2 * * *"   # elke nacht om 02:17 UTC (03:17 of 04:17 Nederlandse tijd)
+  workflow_dispatch: {}      # handmatig starten via de Actions-tab
+  push:
+    branches: [main]
+    paths: ["site/**"]
+
+concurrency:
+  group: tochten
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installeren
+        run: pip install -r requirements.txt
+
+      - name: Tests
+        run: python -m pytest -q
+
+      - name: Scrapen
+        id: scrape
+        continue-on-error: true
+        run: python -m scraper.main
+
+      # main.py schrijft nooit een lege tochten.json; bij een kapotte bron blijven
+      # de vorige gegevens van die bron staan en zijn de andere bronnen wel bijgewerkt.
+      - name: Wijzigingen committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/tochten.json data/
+          if git diff --cached --quiet; then
+            echo "Geen wijzigingen."
+          else
+            git commit -m "Tochten bijgewerkt $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Mislukt als een bron faalde
+        if: steps.scrape.outcome == 'failure'
+        run: |
+          echo "::error::Minstens één bron leverde 0 tochten op of gaf een fout. Zie de stap 'Scrapen'."
+          exit 1
+
+  deploy:
+    needs: scrape
+    if: ${{ !cancelled() && needs.scrape.result != 'cancelled' }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
