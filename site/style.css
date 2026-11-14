@@ -201,6 +201,7 @@ a { color: var(--accent); }
   padding: 14px 16px 10px;
   margin: 0 -16px;
   scroll-snap-type: x proximity;
+  scroll-padding-inline: 16px; /* snappen respecteert de marge links/rechts */
   scrollbar-width: none;
 }
 .day-strip::-webkit-scrollbar { display: none; }

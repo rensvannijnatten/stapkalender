@@ -199,7 +199,11 @@
         '<span class="n">' + (n ? n : "–") + "</span></button>";
     }).join("");
     var sel = strip.querySelector('[aria-selected="true"]');
-    if (sel) strip.scrollLeft = Math.max(0, sel.offsetLeft - strip.clientWidth / 2 + sel.clientWidth / 2);
+    if (sel) {
+      // Gekozen dag in het midden; aan het begin blijft de linkermarge zichtbaar.
+      var pos = sel.offsetLeft - strip.offsetLeft;
+      strip.scrollLeft = Math.max(0, pos - (strip.clientWidth - sel.offsetWidth) / 2);
+    }
 
     var items = dayItems(day, state.km);
     $("#day-summary").textContent = fmtShort(day) + " · " + plural(items.length);

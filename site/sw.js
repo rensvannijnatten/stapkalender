@@ -79,7 +79,8 @@ async function networkFirst(request) {
   const cache = await caches.open(CACHE);
   // Zoeken zonder query (?v=, ?r=) zodat ook een oudere versie als noodoplossing werkt.
   const cached = () => cache.match(request).then((r) => r || cache.match(request, { ignoreSearch: true }));
-  const network = fetch(request).then((resp) => {
+  // no-cache: altijd bij de server navragen (304 als er niets veranderd is).
+  const network = fetch(request, { cache: "no-cache" }).then((resp) => {
     if (resp.ok) cache.put(request, resp.clone());
     return resp;
   });
