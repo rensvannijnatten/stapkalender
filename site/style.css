@@ -494,6 +494,7 @@ a { color: var(--accent); }
   background: var(--card);
   border-top: 1px solid var(--border);
 }
+.tabbar--2 { grid-template-columns: repeat(2, 1fr); }
 .tabbar a {
   display: flex;
   flex-direction: column;

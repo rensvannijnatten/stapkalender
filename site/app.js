@@ -167,7 +167,19 @@
 
   // ---------- Per dag ----------
   function renderDag() {
-    if (!state.day || state.dates.indexOf(state.day) < 0) state.day = state.dates[0];
+    // Alleen dagen met tochten (binnen het gekozen afstandsfilter) tonen.
+    var days = state.dates.filter(function (d) { return dayItems(d, state.km).length > 0; });
+    var hasAny = function (d) { return (state.byDate[d] || []).length > 0; };
+    if (!state.day || state.dates.indexOf(state.day) < 0 || days.indexOf(state.day) < 0) {
+      var cur = state.day || state.dates[0];
+      var next = days.filter(function (d) { return d >= cur; })[0];
+      // Een gekozen dag (bv. vanuit de kalender) die wel tochten heeft maar buiten
+      // het filter valt, blijft staan; anders naar de eerstvolgende dag met tochten.
+      if (!(state.day && hasAny(state.day) && state.dates.indexOf(state.day) >= 0)) {
+        state.day = next || days[days.length - 1] || state.dates[0];
+      }
+    }
+    if (days.indexOf(state.day) < 0) days = days.concat([state.day]).sort();
     var day = state.day;
     var near = state.config.nearKm || 30;
 
@@ -178,7 +190,7 @@
 
     // dagenstrook
     var strip = $("#day-strip");
-    strip.innerHTML = state.dates.map(function (d) {
+    strip.innerHTML = days.map(function (d) {
       var dd = parseIso(d), n = dayItems(d, state.km).length;
       return '<button type="button" role="tab" class="day-btn' + (n ? "" : " is-empty") + '" data-date="' + d + '" aria-selected="' + (d === day) + '"' +
         ' aria-label="' + esc(fmtLong(d) + ", " + plural(n)) + '">' +
@@ -421,6 +433,8 @@
     window.scrollTo(0, prev === "tocht" ? (scrollPos[view] || 0) : 0);
   }
 
+  function allTabEnabled() { return state.config.showAllTab !== false; }
+
   function route() {
     var h = decodeURIComponent(location.hash.replace(/^#/, ""));
     var m;
@@ -437,6 +451,10 @@
       return;
     }
     var prev = state.view;
+    if (h === "alle" && !allTabEnabled()) {
+      location.replace("#dag");
+      return;
+    }
     if (h === "alle") {
       show("alle");
       renderAlle(false);
@@ -544,6 +562,10 @@
       computeDistances();
       renderSources();
       initHomeDialog();
+      if (!allTabEnabled()) {
+        $('.tabbar a[data-tab="alle"]').hidden = true;
+        $(".tabbar").classList.add("tabbar--2");
+      }
       bindEvents();
       $("#loading").hidden = true;
       if (!state.dates.length) { fail("Er zijn nu geen tochten bekend."); return; }
