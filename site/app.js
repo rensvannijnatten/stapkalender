@@ -404,12 +404,21 @@
   }
 
   // ---------- Router ----------
+  var scrollPos = {};
   function show(view) {
+    if (state.view) scrollPos[state.view] = window.scrollY;
+    state.view = view;
     $all(".view").forEach(function (v) { v.hidden = v.id !== "view-" + view; });
     var tab = view === "tocht" ? null : view;
     $all(".tabbar a").forEach(function (a) {
       if (a.dataset.tab === tab) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
     });
+  }
+
+  // Terug van een detailpagina: oude scrollpositie. Andere tab: bovenaan beginnen.
+  function restoreScroll(prev, view) {
+    if (prev === view) return;
+    window.scrollTo(0, prev === "tocht" ? (scrollPos[view] || 0) : 0);
   }
 
   function route() {
@@ -427,15 +436,18 @@
       window.scrollTo(0, 0);
       return;
     }
+    var prev = state.view;
     if (h === "alle") {
       show("alle");
       renderAlle(false);
+      restoreScroll(prev, "alle");
       return;
     }
     m = /^dag(?:\/(\d{4}-\d{2}-\d{2}))?$/.exec(h);
     if (m && m[1]) state.day = m[1];
     show("dag");
     renderDag();
+    restoreScroll(prev, "dag");
   }
 
   // ---------- Thuisadres ----------

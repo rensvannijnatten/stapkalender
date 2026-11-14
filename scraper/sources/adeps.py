@@ -83,7 +83,7 @@ def parse_record(r: dict) -> Tocht | None:
         promoter="Adeps",
         land="BE",
         date=date,
-        name=f"Marche Adeps {city}".strip(),
+        name="Point Vert Adeps",
         organizer=organizer,
         address=address,
         city=city,

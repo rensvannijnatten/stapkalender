@@ -226,6 +226,7 @@ a { color: var(--accent); }
 .day-btn[aria-selected="true"] .wd,
 .day-btn[aria-selected="true"] .n { color: var(--accent-text); }
 .day-btn.is-empty .dm { color: var(--text-2); font-weight: 400; }
+.day-btn[aria-selected="true"] .dm { color: var(--accent-text); font-weight: 700; }
 
 .day-head {
   display: flex;
