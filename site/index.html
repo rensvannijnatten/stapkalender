@@ -8,6 +8,12 @@
   <meta name="theme-color" content="#F6F4EE" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#141A16" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Wandeltochten">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap">
@@ -97,6 +103,8 @@
       <button type="submit" class="btn btn--primary btn--block">Klaar</button>
     </form>
   </dialog>
+
+  <p id="offline-note" class="offline-note" role="status" hidden></p>
 
   <nav class="tabbar" aria-label="Hoofdmenu">
     <a href="#dag" data-tab="dag">

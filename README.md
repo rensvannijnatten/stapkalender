@@ -72,6 +72,17 @@ python3 -m http.server 8000 --directory site
 
 (De site moet via een webserver geopend worden; dubbelklikken op `index.html` werkt niet omdat de browser dan `tochten.json` niet mag laden.)
 
+## Als app op de telefoon (PWA)
+
+De site is een Progressive Web App: hij kan als icoon op het startscherm en opent dan zonder adresbalk.
+
+- **Android (Chrome):** menu ⋮ → *App installeren* (of *Toevoegen aan startscherm*).
+- **iPhone (Safari):** deelknop → *Zet op beginscherm*.
+
+Zonder verbinding toont de app de laatst geladen tochten met een melding net boven de tabbalk; de kaart werkt offline niet. De service worker (`site/sw.js`) haalt altijd eerst de nieuwste versie van het netwerk; bij elke deploy krijgt hij een nieuwe versie (commit-hash), zodat oude caches worden opgeruimd.
+
+De iconen in `site/icons/` worden gemaakt met `tools/make_icons.py` (vereist `pip install pillow`).
+
 ## Thuisadres aanpassen
 
 Standaard in `site/config.json`. Op de site zelf kan via de knop "Vanaf Zundert" tijdelijk een andere plaats gekozen worden; dat wordt alleen in die browser onthouden.

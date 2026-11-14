@@ -481,6 +481,29 @@ a { color: var(--accent); }
 /* Statusmeldingen */
 .status-msg { padding: 40px 16px; text-align: center; color: var(--text-2); font-size: 20px; }
 
+/* Melding offline / oude gegevens, net boven de tabbalk */
+.offline-note {
+  position: fixed;
+  left: 8px; right: 8px;
+  bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom) + 8px);
+  z-index: 1001;
+  margin: 0;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--warn-border);
+  background: var(--warn-bg);
+  color: var(--warn-text);
+  font-weight: 700;
+  font-size: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
+}
+
+body.has-note { padding-bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom) + 90px); }
+.note-btn {
+  display: block; width: 100%; min-height: 44px; padding: 0;
+  border: 0; background: none; color: inherit; font: inherit; text-align: left; cursor: pointer;
+}
+
 /* ---------- Tabbalk ---------- */
 
 .tabbar {

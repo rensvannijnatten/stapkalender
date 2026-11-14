@@ -415,6 +415,37 @@
     $all(".js-sources").forEach(function (el) { el.innerHTML = txt; });
   }
 
+  // Melding als er geen verbinding is (service worker gaf opgeslagen gegevens)
+  // of als de gegevens ouder zijn dan anderhalve dag.
+  function renderNotice() {
+    var el = $("#offline-note");
+    var g = state.meta && state.meta.generated ? new Date(state.meta.generated) : null;
+    var when = g && !isNaN(g) ? fmtMid(iso(g)) : "eerder";
+    var stale = g && !isNaN(g) && (Date.now() - g.getTime()) > 36 * 3600 * 1000;
+    if (state.offline || navigator.onLine === false) {
+      el.textContent = "Geen verbinding. Je ziet de tochten zoals ze waren op " + when + ".";
+    } else if (stale) {
+      el.textContent = "Let op: deze gegevens zijn van " + when + " en misschien niet meer actueel.";
+    } else {
+      el.hidden = true;
+      document.body.classList.remove("has-note");
+      return;
+    }
+    el.hidden = false;
+    document.body.classList.add("has-note");
+  }
+
+  function initConnectionEvents() {
+    var el = $("#offline-note");
+    window.addEventListener("offline", renderNotice);
+    window.addEventListener("online", function () {
+      if (!state.offline) { renderNotice(); return; }
+      el.innerHTML = '<button type="button" class="note-btn">Verbinding is terug. Tik hier om te vernieuwen.</button>';
+      el.hidden = false;
+      $("button", el).addEventListener("click", function () { location.reload(); });
+    });
+  }
+
   // ---------- Router ----------
   var scrollPos = {};
   function show(view) {
@@ -551,6 +582,7 @@
       fetch("config.json", { cache: "no-cache" }).then(function (r) { return r.json(); }),
       fetch("data/tochten.json", { cache: "no-cache" }).then(function (r) {
         if (!r.ok) throw new Error("HTTP " + r.status);
+        state.offline = r.headers.get("X-Offline-Cache") === "1";
         return r.json();
       })
     ]).then(function (res) {
@@ -561,6 +593,8 @@
       indexData(res[1]);
       computeDistances();
       renderSources();
+      renderNotice();
+      initConnectionEvents();
       initHomeDialog();
       if (!allTabEnabled()) {
         $('.tabbar a[data-tab="alle"]').hidden = true;
@@ -573,6 +607,14 @@
     }).catch(function (e) {
       fail("De tochten konden niet geladen worden. Probeer het later opnieuw.");
       if (window.console) console.error(e);
+    });
+  }
+
+  if ("serviceWorker" in navigator && location.protocol !== "file:") {
+    window.addEventListener("load", function () {
+      navigator.serviceWorker.register("sw.js").catch(function (e) {
+        if (window.console) console.warn("Service worker niet geregistreerd", e);
+      });
     });
   }
 
