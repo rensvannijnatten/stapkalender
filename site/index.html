@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Wandeltochten</title>
+  <meta name="description" content="Georganiseerde wandeltochten in Nederland en België, gesorteerd op afstand.">
+  <meta name="theme-color" content="#F6F4EE" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#141A16" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" integrity="sha384-c6Rcwz4e4CITMbu/NBmnNS8yN2sC3cUElMEMfP3vqqKFp7GOYaaBBCqmaWBjmkjb" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css" integrity="sha384-uIZNAcoEHVWMk8LrCSX95DJk6FQzH6zG00LQC9BykRY1UKKpkDzDhbDLYQ1Ho3mI" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="app">
+    <!-- Per dag -->
+    <section id="view-dag" class="view" hidden aria-labelledby="dag-title">
+      <div class="map-wrap">
+        <div id="map-dag" class="map" role="region" aria-label="Kaart met tochten van deze dag"></div>
+        <h1 id="dag-title" class="map-title">Wandeltochten</h1>
+        <button type="button" class="map-home js-home-btn">Vanaf <span class="js-home-name">Zundert</span></button>
+      </div>
+      <div class="panel">
+        <div id="day-strip" class="day-strip" role="tablist" aria-label="Kies een dag"></div>
+        <div class="day-head">
+          <p id="day-summary" class="day-summary" aria-live="polite"></p>
+          <div class="segmented" role="radiogroup" aria-label="Maximale afstand">
+            <button type="button" role="radio" data-km="30">30</button>
+            <button type="button" role="radio" data-km="60">60 km</button>
+            <button type="button" role="radio" data-km="0">Alles</button>
+          </div>
+        </div>
+        <ol id="day-list" class="cards"></ol>
+        <p class="sources js-sources"></p>
+      </div>
+    </section>
+
+    <!-- Alle tochten -->
+    <section id="view-alle" class="view" hidden aria-labelledby="alle-title">
+      <div class="map-wrap">
+        <div id="map-alle" class="map" role="region" aria-label="Kaart met alle tochten"></div>
+        <h1 id="alle-title" class="map-title">Alle tochten</h1>
+        <button type="button" class="map-home js-home-btn">Vanaf <span class="js-home-name">Zundert</span></button>
+      </div>
+      <div class="panel">
+        <div id="all-list"></div>
+        <div id="all-more" class="more-sentinel" aria-hidden="true"></div>
+        <p class="sources js-sources"></p>
+      </div>
+    </section>
+
+    <!-- Kalender -->
+    <section id="view-kalender" class="view view--plain" hidden aria-labelledby="kal-title">
+      <div class="page">
+        <h1 id="kal-title" class="page-title">Kalender</h1>
+        <p class="page-sub">Groen = tochten binnen <span class="js-cal-km">40</span> km van <span class="js-home-name">Zundert</span>. Tik op een dag.</p>
+        <div class="cal-nav">
+          <button type="button" id="cal-prev" class="icon-btn" aria-label="Vorige maand">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+          </button>
+          <h2 id="cal-month" class="cal-month" aria-live="polite"></h2>
+          <button type="button" id="cal-next" class="icon-btn" aria-label="Volgende maand">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+        <div class="cal-grid cal-weekdays" aria-hidden="true">
+          <span>ma</span><span>di</span><span>wo</span><span>do</span><span>vr</span><span>za</span><span>zo</span>
+        </div>
+        <div id="cal-grid" class="cal-grid"></div>
+      </div>
+    </section>
+
+    <!-- Detail -->
+    <section id="view-tocht" class="view view--plain" hidden aria-labelledby="t-name">
+      <div class="page" id="tocht"></div>
+    </section>
+
+    <div id="loading" class="status-msg">Tochten laden…</div>
+  </main>
+
+  <!-- Thuisadres kiezen -->
+  <dialog id="home-dialog" aria-labelledby="home-title">
+    <form method="dialog" class="sheet" id="home-form">
+      <h2 id="home-title">Afstanden meten vanaf</h2>
+      <p class="sheet-current">Nu: <strong class="js-home-name">Zundert</strong></p>
+      <label for="home-input">Andere plaats</label>
+      <div class="sheet-row">
+        <input id="home-input" name="q" type="text" autocomplete="off" placeholder="Bijv. Breda">
+        <button type="button" id="home-search" class="btn btn--secondary">Zoek</button>
+      </div>
+      <p id="home-msg" class="sheet-msg" aria-live="polite"></p>
+      <button type="button" id="home-reset" class="btn btn--secondary btn--block">Terug naar <span class="js-default-home">Zundert</span></button>
+      <button type="submit" class="btn btn--primary btn--block">Klaar</button>
+    </form>
+  </dialog>
+
+  <nav class="tabbar" aria-label="Hoofdmenu">
+    <a href="#dag" data-tab="dag">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-6.1-6.5-11.2A6.5 6.5 0 0 1 18.5 9.8C18.5 14.9 12 21 12 21z"/><circle cx="12" cy="9.8" r="2.4"/></svg>
+      <span>Per dag</span>
+    </a>
+    <a href="#alle" data-tab="alle">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1.2"/><circle cx="4.5" cy="12" r="1.2"/><circle cx="4.5" cy="18" r="1.2"/></svg>
+      <span>Alle tochten</span>
+    </a>
+    <a href="#kalender" data-tab="kalender">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>
+      <span>Kalender</span>
+    </a>
+  </nav>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" integrity="sha384-NElt3Op+9NBMCYaef5HxeJmU4Xeard/Lku8ek6hoPTvYkQPh3zLIrJP7KiRocsxO" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js" integrity="sha384-SIh+qcEBNMda8tT+rx66aCBuWtVYMVzRABqhK4eeQh4pjDHoRdVx8nYU4LQ5eGzI" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="app.js"></script>
+</body>
+</html>
