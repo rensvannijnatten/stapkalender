@@ -73,6 +73,14 @@ jobs:
         with:
           ref: main
 
+      # GitHub Pages cachet bestanden 10 minuten. Een nieuwe ?v= per commit zorgt dat
+      # een gewone refresh meteen de nieuwe app.js en style.css ophaalt.
+      - name: Versie in bestandsnamen zetten
+        run: |
+          v=$(git rev-parse --short HEAD)
+          sed -i "s/?v=dev/?v=$v/g" site/index.html
+          grep -q "?v=$v" site/index.html
+
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v4
