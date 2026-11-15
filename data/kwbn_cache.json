@@ -3962,38 +3962,6 @@
    "website": "https://bonbonnerieborrel.nl/"
   }
  },
- "https://www.wandel.nl/evenementen/de-dijken-op-de-uiterwaarden-in-zaltbommel/": {
-  "date": "2026-11-14",
-  "lastmod": "2026-08-25T09:05:19.007Z",
-  "multi_day": false,
-  "tocht": {
-   "address": "Zwembad De Sportwaard, Oude Bosscheweg 6, 5301LA Zaltbommel",
-   "cancelled": false,
-   "city": "Zaltbommel",
-   "date": "2026-11-14",
-   "description": "Op zoek naar een herfstwandeling langs dijken, kastelen en de machtige Waal? Wandel dan op zaterdag 14 november 2026 mee met ‘De dijken op, de uiterwaarden in’! Vanuit het historische Zaltbommel wandel je via de oude stadswal naar het centrum met het karakteristieke Stadskasteel, langs de Waalkade en door de weidse uiterwaarden richting Rossum en Heerewaarden. Of je nu kiest voor de 20, 30 of 40 kilometer, je ontdekt een prachtige mix van vestingstadjes, kastelen en rivierlandschap!\n\nVoor meer informatie over deze tocht, bezoek onze website: ws78.nl/Komende_tochten/2026/Zaltbommel.html\n\nWil jij deze tocht langs dijken, kastelen en de Waal niet missen? Schrijf je dan nu in!",
-   "distances": [
-    20,
-    30,
-    40
-   ],
-   "email": "ws78.info@gmail.com",
-   "id": "d3f28cc17de6",
-   "land": "NL",
-   "last_change": "",
-   "lat": null,
-   "lon": null,
-   "name": "WS78 De dijken op, de uiterwaarden in (Zaltbommel)",
-   "organizer": "Wandelsport '78",
-   "phone1": "06 - 160 768 28",
-   "phone2": "",
-   "promoter": "KWbN",
-   "source_url": "https://www.wandel.nl/evenementen/de-dijken-op-de-uiterwaarden-in-zaltbommel/",
-   "start_time": "08:00-10:00",
-   "warning": "",
-   "website": "http://www.ws78.nl/"
-  }
- },
  "https://www.wandel.nl/evenementen/de-kennedymars-van-de-langstraat-waalwijk/": {
   "date": "2027-09-11",
   "lastmod": "2026-10-02T08:38:33.217Z",
@@ -12179,39 +12147,6 @@
    "start_time": "08:00-11:00",
    "warning": "",
    "website": "https://www.pinkribbonsoesterwandelweekend.nl/"
-  }
- },
- "https://www.wandel.nl/evenementen/speculaastocht/": {
-  "date": "2026-11-14",
-  "lastmod": "2026-04-24T14:55:27.577Z",
-  "multi_day": false,
-  "tocht": {
-   "address": "Sporthal De Ridderhal, Hoge Kade 60, 3341BE Hendrik-Ido-Ambacht",
-   "cancelled": false,
-   "city": "Hendrik-Ido-Ambacht",
-   "date": "2026-11-14",
-   "description": "De blaadjes vallen van de bomen, de nachten worden kouder…….het is volop herfst! Een heerlijke periode om te wandelen. De natuur laat zich zien met prachtige kleuren en geuren. De geur van een open haard maar ook de geur van allerlei typische herfstlekkernijen zoals pepernoten, marsepein en…..SPECULAAS.\n\nOp zaterdag 14 november 2026 organiseren wij de Speculaastocht. De omgeving van Hendrik-Ido-Ambacht heeft genoeg te bieden om leuke en afwisselende routes samen te stellen.\n\nDeelnemen aan deze tocht? Schrijf je dan hier online in. Online inschrijven is mogelijk vanaf 30 oktober 00:00 tot en met 14 november 11:00 uur. Ook is het mogelijk je op de dag van de wandeltocht in te schrijven op de startlocatie.",
-   "distances": [
-    5,
-    10,
-    15,
-    25
-   ],
-   "email": "info@st-wandelsportdordrecht.nl",
-   "id": "caeb2e5be6fc",
-   "land": "NL",
-   "last_change": "",
-   "lat": null,
-   "lon": null,
-   "name": "Speculaastocht",
-   "organizer": "Stichting Wandelsport Dordrecht e.o.",
-   "phone1": "06-27001014",
-   "phone2": "",
-   "promoter": "KWbN",
-   "source_url": "https://www.wandel.nl/evenementen/speculaastocht/",
-   "start_time": "08:30-11:00",
-   "warning": "",
-   "website": "http://www.stichting-wandelsport-dordrecht.nl/"
   }
  },
  "https://www.wandel.nl/evenementen/spierenvoorspierenwandeltocht/": {
