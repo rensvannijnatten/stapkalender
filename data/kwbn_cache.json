@@ -2374,40 +2374,6 @@
    "website": "http://www.olat.nl/dagwandeltochten.nl"
   }
  },
- "https://www.wandel.nl/evenementen/60e-olat-winterserie-vanuit-eersel-eersel/": {
-  "date": "2026-11-15",
-  "lastmod": "2026-09-23T13:52:15.353Z",
-  "multi_day": false,
-  "tocht": {
-   "address": "De Keizer, Postelseweg 88, 5521RD Eersel",
-   "cancelled": false,
-   "city": "Eersel",
-   "date": "2026-11-15",
-   "description": "Beleef de Kempen op haar mooist tijdens deze schitterende dagwandeltocht vanuit TerSpegelt bij Eersel. Je wandelt door uitgestrekte bossen, paarse heidevelden, langs vennen, historische grensgebieden en sfeervolle Belgische en Nederlandse natuurgebieden. Vrijwel de hele route voert over onverharde paden, waardoor je de natuur optimaal ervaart.\n\nWil je op de wandeldag direct op pad en drukte bij de inschrijftafel voorkomen? Maak dan gebruik van de voorinschrijving. Deze opent ongeveer twee maanden voorafgaand aan de wandeltocht en maakt aanmelden snel en eenvoudig. Zo kun je ontspannen aan je wandeling door de prachtige Kempische natuur beginnen.\n\nBesluit je pas op het laatste moment mee te doen? Ook dat kan. Je kunt je op de dag van de tocht gewoon nog inschrijven bij het inschrijfbureau op het startterrein. Of je nu ruim van tevoren plant of spontaan besluit mee te wandelen, iedereen is van harte welkom bij deze mooie OLAT-wandeltocht vanuit Eersel.",
-   "distances": [
-    10,
-    15,
-    20,
-    30,
-    40
-   ],
-   "email": "dagtochten@olat.nl",
-   "id": "fc32cf6e7d21",
-   "land": "NL",
-   "last_change": "",
-   "lat": null,
-   "lon": null,
-   "name": "60e Dagwandeltocht vanuit Eersel",
-   "organizer": "Wandelsportvereniging OLAT",
-   "phone1": "",
-   "phone2": "",
-   "promoter": "KWbN",
-   "source_url": "https://www.wandel.nl/evenementen/60e-olat-winterserie-vanuit-eersel-eersel/",
-   "start_time": "08:00-13:00",
-   "warning": "",
-   "website": "https://www.olat.nl/winterserie"
-  }
- },
  "https://www.wandel.nl/evenementen/60e-olat-winterserie-vanuit-heeze-heeze/": {
   "date": "2026-12-13",
   "lastmod": "2025-09-11T19:51:09.623Z",
@@ -10166,39 +10132,6 @@
    "website": "http://www.rotterdamsewandelsportvereniging.nl/"
   }
  },
- "https://www.wandel.nl/evenementen/prestatiewedstrijdrwv-rotterdam-la-nov2/": {
-  "date": "2026-11-15",
-  "lastmod": "2026-07-09T12:35:05.88Z",
-  "multi_day": false,
-  "tocht": {
-   "address": "Kantine PAC, Langepad 16, 3062CJ Rotterdam",
-   "cancelled": false,
-   "city": "Rotterdam",
-   "date": "2026-11-15",
-   "description": "In de komende wintermaanden organiseert de RWV wederom haar traditionele winterserie snelwandelen. Aan het eind van de serie van 6 wedstrijden wordt een klassement opgemaakt, waarvoor de beste drie resultaten uit de serie tellen. Het zijn instuifwedstrijd",
-   "distances": [
-    1,
-    3,
-    5,
-    10
-   ],
-   "email": "hansvanderknaap2@gmail.com",
-   "id": "4132615a37a5",
-   "land": "NL",
-   "last_change": "",
-   "lat": null,
-   "lon": null,
-   "name": "Prestatie Wedstrijd RWV",
-   "organizer": "Rotterdamse Wandelsport Vereniging (RWV)",
-   "phone1": "06-57392395",
-   "phone2": "",
-   "promoter": "KWbN",
-   "source_url": "https://www.wandel.nl/evenementen/prestatiewedstrijdrwv-rotterdam-la-nov2/",
-   "start_time": "11:00",
-   "warning": "",
-   "website": "http://www.rotterdamsewandelsportvereniging.nl/"
-  }
- },
  "https://www.wandel.nl/evenementen/recreatietocht-vlissingen-april1/": {
   "date": "2027-04-07",
   "lastmod": "2026-09-13T20:35:39.283Z",
@@ -11292,38 +11225,6 @@
    "start_time": "08:00-14:00",
    "warning": "",
    "website": "http://www.rondjezandhaas.nl/"
-  }
- },
- "https://www.wandel.nl/evenementen/rwv-winterserie-2etocht/": {
-  "date": "2026-11-15",
-  "lastmod": "2026-06-17T20:47:11.597Z",
-  "multi_day": false,
-  "tocht": {
-   "address": "PAC Rotterdam, Langepad 16, 3062CJ Rotterdam",
-   "cancelled": false,
-   "city": "Rotterdam",
-   "date": "2026-11-15",
-   "description": "In het wandelseizoen 2026-2027 organiseert de RWV voor de 43e keer de Winterserie wandeltochten.\nDe parkoersen door en rond het Kralingsebos zorgen er voor dat je echt “buiten” bent.\nEen prima gelegenheid om in de wintermaanden in beweging te blijven.\n\nDit is de tweede wandeling.\nDe volgende wandelingen zijn op:\n6 december 2026\n3 januari 2027\n7 februari 2027\n7 maart 2027\n\nJe kunt voor alle bovenstaande data in één keer inschrijven. Je betaalt dan slechts vier van de vijf tochten die je dan kunt meedoen.\nMaar, gewoon voor één keer inschrijven kan natuurlijk ook, via internet of op het startbureau.",
-   "distances": [
-    5,
-    10,
-    15
-   ],
-   "email": "info@rotterdamsewandelsportvereniging.nl",
-   "id": "6c4360d265b1",
-   "land": "NL",
-   "last_change": "",
-   "lat": null,
-   "lon": null,
-   "name": "43e RWV-Winterserie (2e tocht)",
-   "organizer": "Rotterdamse Wandelsport Vereniging (RWV)",
-   "phone1": "010-5010211 06-12423791",
-   "phone2": "",
-   "promoter": "KWbN",
-   "source_url": "https://www.wandel.nl/evenementen/rwv-winterserie-2etocht/",
-   "start_time": "09:00-11:00",
-   "warning": "",
-   "website": "http://www.rotterdamsewandelsportvereniging.nl/"
   }
  },
  "https://www.wandel.nl/evenementen/rwv-winterserie-3etocht/": {
