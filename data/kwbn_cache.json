@@ -2770,6 +2770,39 @@
    "website": "http://www.wandelendhoek.nl/"
   }
  },
+ "https://www.wandel.nl/evenementen/achterhoeksewandelvierdaagse/": {
+  "date": "2027-05-05",
+  "lastmod": "2026-11-17T10:34:59.397Z",
+  "multi_day": true,
+  "tocht": {
+   "address": "Catharinakerk, Simonsplein 25, 7001BM Doetinchem",
+   "cancelled": false,
+   "city": "Doetinchem",
+   "date": "2027-05-05",
+   "description": "Van 5 tot en met 8 mei 2027 worden voor de 21e keer de Achterhoekse Wandeldagen gehouden. Startpunt van het evenement is het centrum (Simonsplein) van Doetinchem, waar ook dit jaar weer duizenden deelnemers verzamelen om routes van ca. 12, 20, 30 en 40 kilometer door de mooiste delen van de Achterhoek te wandelen.",
+   "distances": [
+    12,
+    20,
+    30,
+    40
+   ],
+   "email": "info@aw4d.nl",
+   "id": "c46ff0a7103f",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "Achterhoekse Wandeldagen",
+   "organizer": "Stichting De Achterhoekse Wandelvierdaagse",
+   "phone1": "06-15520834",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/achterhoeksewandelvierdaagse/",
+   "start_time": "06:30-10:30",
+   "warning": "",
+   "website": "https://www.aw4d.nl/"
+  }
+ },
  "https://www.wandel.nl/evenementen/achtvanheumen/": {
   "date": "2027-03-29",
   "lastmod": "2026-10-08T15:38:11.02Z",

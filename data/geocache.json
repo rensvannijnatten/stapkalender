@@ -11,6 +11,10 @@
   52.114515,
   4.279993
  ],
+ "nl|2678 LV": [
+  51.987208,
+  4.263033
+ ],
  "nl|3766 AE": [
   52.158783,
   5.287206
@@ -52,6 +56,14 @@
   3.935021
  ],
  "nl|Bossttraat 151, 3766 AE Soest": null,
+ "nl|Brink 1, 9331 AA Norg": [
+  53.067233,
+  6.461523
+ ],
+ "nl|Brouwerslaan 4, 6931 AC Westervoort": [
+  51.964735,
+  5.974139
+ ],
  "nl|Butzelaarstraat 60, 8105 AR Luttenberg": [
   52.401172,
   6.370524
@@ -59,6 +71,10 @@
  "nl|De Beide Vlooswijkenlaan 45, 3461 GB Linschoten": [
   52.064188,
   4.921742
+ ],
+ "nl|De Ketting 3, 9231 AK Surhuisterveen": [
+  53.176005,
+  6.177012
  ],
  "nl|Dominee L. Tinholtstraat 5, 8723 CW Koudum": [
   52.914907,
@@ -153,6 +169,10 @@
  "nl|Langepad 16, 3062 CJ Rotterdam": [
   51.934934,
   4.50364
+ ],
+ "nl|Lohuizerweg 18, 8162 EX Epe": [
+  52.353314,
+  5.982445
  ],
  "nl|Luciaweg 25, 6523 NK Nijmegen": [
   51.828316,
@@ -264,6 +284,7 @@
   51.333698,
   6.119366
  ],
+ "nl|Veilingweg16 16, 2678 LV De Lier": null,
  "nl|Weesmolenstraat 12, 3257 XM Ooltgensplaat": [
   51.685527,
   4.34443
