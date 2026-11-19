@@ -3262,6 +3262,39 @@
    "website": "http://www.flal.nl/"
   }
  },
+ "https://www.wandel.nl/evenementen/betburgwandeltocht/": {
+  "date": "2027-05-23",
+  "lastmod": "2026-11-18T18:50:37.87Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "De borg, Babborgplein 3a, 6909DW Babberich",
+   "cancelled": false,
+   "city": "Babberich",
+   "date": "2027-05-23",
+   "description": "Een wandeling van 15, 20, 30 of 40 km waarbij drukke verkeerswegen worden vermeden.\n\nDeelnamekosten: € 6,- p.p.\nReductie op vertoon van KWbN-ledenpas: € 1,-.\n\nBereikbaarheid startlocatie via A12 richting Oberhausen, afrit Babberich is op zondag ook goed bereikbaar met de bus.",
+   "distances": [
+    15,
+    20,
+    30,
+    40
+   ],
+   "email": "marcterschure@gmail.com",
+   "id": "69dc54de8a75",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "Betburg wandeltocht",
+   "organizer": "Het Schuttersgilde \"St. Jan\"",
+   "phone1": "06-51309864",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/betburgwandeltocht/",
+   "start_time": "07:30-11:00",
+   "warning": "",
+   "website": "http://www.gildestjan.nl/"
+  }
+ },
  "https://www.wandel.nl/evenementen/betuwse-bloesemtocht-geldermalsen/": {
   "date": "2027-04-10",
   "lastmod": "2026-05-01T12:22:26.88Z",
@@ -11067,6 +11100,37 @@
    "start_time": "07:30-12:00",
    "warning": "",
    "website": "http://www.bathmen.nl/"
+  }
+ },
+ "https://www.wandel.nl/evenementen/rondje-edamvolendam-edam/": {
+  "date": "2026-12-02",
+  "lastmod": "2026-11-18T22:51:16.467Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "HR \"De Fortuna\", Spuistraat 3, 1135AV Edam",
+   "cancelled": false,
+   "city": "Edam",
+   "date": "2026-12-02",
+   "description": "Inschrijven mogelijk vanaf 09:00 uur.\nDe Groepstart is om 09:30, maar ieder loopt zijn eigen tempo.\nStarten is mogelijk tot 10:00.\n\nInschrijfgeld : € 6,00 bondsleden € 5,00 DLL leden € 4,00.\nBij voorkeur ter plekke met PIN betalen.\n\nHiervoor ontvangt men een kop koffie/thee, een routebeschrijving\nen een GPX download van de route is ook aanwezig.",
+   "distances": [
+    10,
+    15
+   ],
+   "email": "tochtcoordinator@wsvdelaatsteloodjes.nl",
+   "id": "b1b2916ace98",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "Rondje Edam-Volendam",
+   "organizer": "Wandelsportvereniging \"De Laatste Loodjes\"",
+   "phone1": "06-13555254",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/rondje-edamvolendam-edam/",
+   "start_time": "09:30-10:00",
+   "warning": "",
+   "website": "http://www.wsvdelaatsteloodjes.nl/"
   }
  },
  "https://www.wandel.nl/evenementen/rondje-land-van-cuijk-cuijk/": {

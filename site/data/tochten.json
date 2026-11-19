@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-18T11:12:28+01:00",
- "from": "2026-11-18",
- "until": "2027-01-17",
+ "generated": "2026-11-19T11:23:07+01:00",
+ "from": "2026-11-19",
+ "until": "2027-01-18",
  "sources": {
   "wsvl": {
    "ok": true,
-   "count": 174
+   "count": 172
   },
   "kwbn": {
    "ok": true,
-   "count": 86
+   "count": 85
   },
   "adeps": {
    "ok": true,
@@ -17,118 +17,6 @@
   }
  },
  "tochten": [
-  {
-   "source_url": "https://www.wandel.nl/evenementen/midweekwandeltochtnovember/",
-   "promoter": "KWbN",
-   "land": "NL",
-   "date": "2026-11-18",
-   "name": "Midweekwandeltocht november",
-   "organizer": "Wandelsportvereniging De Veldlopers",
-   "address": "t Gulper Hoes, Rosstraat 5, 6271BG Gulpen",
-   "city": "Gulpen",
-   "lat": 50.81521,
-   "lon": 5.889949,
-   "distances": [
-    5,
-    10,
-    15
-   ],
-   "start_time": "08:00-14:00",
-   "description": "Elke derde woensdag van de maand organiseren de Veldlopers in Gulpen een Midweektocht. Deze wandelingen zijn uitermate geschikt voor mensen die op een doordeweekse dag tijd hebben om te genieten van een wandeling door het mooie Zuid-Limburgse land. Bekend om zijn leuke dorpjes, rustige paadjes en natuurlijk de heuvels.",
-   "website": "http://www.veldlopersgulpen.nl/",
-   "email": "janhacking1953@gmail.com",
-   "phone1": "06-10617535",
-   "phone2": "",
-   "warning": "",
-   "cancelled": false,
-   "last_change": "2026-11-14T20:22:25+01:00",
-   "id": "046b5dc02727"
-  },
-  {
-   "source_url": "https://www.wandel.be/wandelkalender/8499/",
-   "promoter": "Wandelsport Vlaanderen",
-   "land": "BE",
-   "date": "2026-11-18",
-   "name": "3e Oliebollentocht",
-   "organizer": "Levenslijnteam Damme vzw",
-   "address": "Zaal De Kring, Vredesplein 1, 8340 Sijsele",
-   "city": "Sijsele",
-   "lat": 51.21002120000001,
-   "lon": 3.3160903,
-   "distances": [
-    5,
-    10,
-    15,
-    20
-   ],
-   "start_time": "08:00-15:00",
-   "description": "Parcours op grondgebied Damme met verbinding tussen de woonzorgcentra die Damme rijk is. Veel herfstnatuur en door bossen.",
-   "website": "https://www.levenslijndamme.be",
-   "email": "roger.snauwaert@skynet.be",
-   "phone1": "+32(0)478 28 17 87",
-   "phone2": "",
-   "warning": "",
-   "cancelled": false,
-   "last_change": "2026-11-14T20:22:25+01:00",
-   "id": "7b8ee7c88dc9"
-  },
-  {
-   "source_url": "https://www.wandel.be/wandelkalender/8498/",
-   "promoter": "Wandelsport Vlaanderen",
-   "land": "BE",
-   "date": "2026-11-18",
-   "name": "Glühwein midweekwandeling",
-   "organizer": "WSV Egmont Zottegem vzw",
-   "address": "OC Strijpen, Sint-Andriessteenweg, 9620 Strijpen",
-   "city": "Strijpen",
-   "lat": 50.8680667,
-   "lon": 3.7969297,
-   "distances": [
-    7,
-    10,
-    14,
-    18,
-    21
-   ],
-   "start_time": "07:00-15:00",
-   "description": "Langs de mooiste plekjes van Zottegem via rustige wegen en paadjes. Inschrijving ook mogelijk tot 14.00u in rustpost: OC Sint-Goriks-Oudenhove, Sint-Goriksstraat 13 in Sint-Goriks-Oudenhove. Rustpost sluit om 17.00u.",
-   "website": "http://www.wandelclubegmont.be",
-   "email": "info@wandelclubegmont.be",
-   "phone1": "+32(0)9 324 67 46",
-   "phone2": "+32(0)497 46 37 97",
-   "warning": "",
-   "cancelled": false,
-   "last_change": "2026-11-14T20:22:25+01:00",
-   "id": "d3c1d5e308be"
-  },
-  {
-   "source_url": "https://www.wandel.nl/evenementen/recreatietocht-vlissingen-nov2/",
-   "promoter": "KWbN",
-   "land": "NL",
-   "date": "2026-11-18",
-   "name": "Recreatietocht 3e woensdag november",
-   "organizer": "W.S.V. Willen Is Kunnen",
-   "address": "VCB Lammerenburg, Zuidbeekseweg 22, 4386ND Vlissingen",
-   "city": "Vlissingen",
-   "lat": 51.465049,
-   "lon": 3.560072,
-   "distances": [
-    5,
-    7.5,
-    8,
-    10
-   ],
-   "start_time": "08:30-09:30",
-   "description": "Recreatietocht van 5, 7,5 of 10 km met duidelijke routebeschrijving.\nInschrijfgeld € 2,50 inclusief koffie/thee.",
-   "website": "http://www.wikvlissingen.nl/",
-   "email": "klankex2@zeelandnet.nl",
-   "phone1": "06-16712373",
-   "phone2": "",
-   "warning": "",
-   "cancelled": false,
-   "last_change": "2026-11-14T20:22:25+01:00",
-   "id": "79aa7261cb98"
-  },
   {
    "source_url": "https://www.wandel.nl/evenementen/kijkuit-route-castricum/",
    "promoter": "KWbN",
@@ -1016,13 +904,18 @@
    "organizer": "Koninklijke Wandelclub AVIAT Sint-Truiden vzw",
    "address": "Zaal Lindehof, Gelinden-Dorp, 3800 Gelinden",
    "city": "Gelinden",
-   "lat": 50.7623841,
-   "lon": 5.260553399999935,
+   "lat": 50.7626738,
+   "lon": 5.2608906,
    "distances": [
-    6,
-    8,
-    13,
+    5,
+    7,
+    9,
+    10,
+    12,
+    14,
+    16,
     18,
+    19,
     21
    ],
    "start_time": "07:00-15:00",
@@ -1033,7 +926,7 @@
    "phone2": "",
    "warning": "",
    "cancelled": false,
-   "last_change": "2026-11-14T20:22:25+01:00",
+   "last_change": "2026-11-19T11:23:07+01:00",
    "id": "f6642b5b6c57"
   },
   {
@@ -2092,6 +1985,32 @@
    "id": "a99b34115b99"
   },
   {
+   "source_url": "https://www.wandel.nl/evenementen/rondje-edamvolendam-edam/",
+   "promoter": "KWbN",
+   "land": "NL",
+   "date": "2026-12-02",
+   "name": "Rondje Edam-Volendam",
+   "organizer": "Wandelsportvereniging \"De Laatste Loodjes\"",
+   "address": "HR \"De Fortuna\", Spuistraat 3, 1135AV Edam",
+   "city": "Edam",
+   "lat": 52.511499,
+   "lon": 5.048701,
+   "distances": [
+    10,
+    15
+   ],
+   "start_time": "09:30-10:00",
+   "description": "Inschrijven mogelijk vanaf 09:00 uur.\nDe Groepstart is om 09:30, maar ieder loopt zijn eigen tempo.\nStarten is mogelijk tot 10:00.\n\nInschrijfgeld : € 6,00 bondsleden € 5,00 DLL leden € 4,00.\nBij voorkeur ter plekke met PIN betalen.\n\nHiervoor ontvangt men een kop koffie/thee, een routebeschrijving\nen een GPX download van de route is ook aanwezig.",
+   "website": "http://www.wsvdelaatsteloodjes.nl/",
+   "email": "tochtcoordinator@wsvdelaatsteloodjes.nl",
+   "phone1": "06-13555254",
+   "phone2": "",
+   "warning": "",
+   "cancelled": false,
+   "last_change": "2026-11-19T11:23:07+01:00",
+   "id": "b1b2916ace98"
+  },
+  {
    "source_url": "https://www.wandel.be/wandelkalender/8709/",
    "promoter": "Wandelsport Vlaanderen",
    "land": "BE",
@@ -3147,24 +3066,26 @@
    "organizer": "De Kasseistappers Eernegem",
    "address": "Sportzaal De Klokkenput, Bruggestraat 104, 8480 Eernegem",
    "city": "Eernegem",
-   "lat": 51.1271684,
-   "lon": 3.0368752,
+   "lat": 51.131425,
+   "lon": 3.0356258,
    "distances": [
     5,
-    7,
-    12,
-    15,
-    21
+    8,
+    11,
+    13,
+    16,
+    19,
+    24
    ],
    "start_time": "07:00-15:00",
-   "description": "Wandelen in en rond Eernegem en genieten van de natuur in rust.",
+   "description": "Wandelen in en rond Eernegem en genieten van de natuur in rust. Iedere deelnemer ontvangt 2 gratis pannenkoeken.",
    "website": "https://de-kasseistappers-eernegem.com",
    "email": "dirk.ilegems@skynet.be",
    "phone1": "+32(0)478 36 04 44",
    "phone2": "",
    "warning": "",
    "cancelled": false,
-   "last_change": "2026-11-14T20:22:25+01:00",
+   "last_change": "2026-11-19T11:23:07+01:00",
    "id": "9e7bb159ae3c"
   },
   {
@@ -3940,16 +3861,17 @@
    "date": "2026-12-13",
    "name": "41e Kersttocht",
    "organizer": "Reynaertstappers vzw",
-   "address": "OC Ter Beke, Vleeshouwersstraat 4, 9112 Sinaai",
+   "address": "Parochiezaal Dries, Dries 74, 9112 Sinaai",
    "city": "Sinaai",
-   "lat": 51.1569367,
-   "lon": 4.0490009,
+   "lat": 51.1579972,
+   "lon": 4.0420206,
    "distances": [
-    5,
-    10,
-    15,
-    20,
-    25
+    6,
+    8,
+    13,
+    17,
+    21,
+    26
    ],
    "start_time": "08:00-15:00",
    "description": "Mooie wandeling door de betoverende landschappen van Sinaai. De club zorgt voor veel frisse lucht in de donkerste dagen van het jaar.",
@@ -3959,7 +3881,7 @@
    "phone2": "",
    "warning": "Gewijzigd door de organisator, kijk op de website voor de laatste info.",
    "cancelled": false,
-   "last_change": "2026-11-14T20:22:25+01:00",
+   "last_change": "2026-11-19T11:23:07+01:00",
    "id": "6e91809f7cba"
   },
   {
@@ -4669,18 +4591,17 @@
    "date": "2026-12-20",
    "name": "Mysterieus Middelkerke",
    "organizer": "Spoetnikstappers vzw",
-   "address": "BUSO Ter Strepe, Westendelaan 36, 8430 Middelkerke",
+   "address": "Gemeenteschool De Zandloper Middelkerke, Onderwijsstraat 5, 8430 Middelkerke",
    "city": "Middelkerke",
-   "lat": 51.1842799,
-   "lon": 2.8189168,
+   "lat": 51.186742,
+   "lon": 2.8206621,
    "distances": [
-    4,
-    6,
+    5,
+    7,
     8,
-    12,
-    16,
-    20,
-    24
+    13,
+    15,
+    21
    ],
    "start_time": "10:00-18:00",
    "description": "Prachtige familie-uitstap in het feestelijke decor van het Normandpark. Duizenden fonkelende lichtjes, kleurrijke lampen en gezelligheid met diverse standjes maken van Middelkerke een magische plek. Zeker een aanrader!",
@@ -4690,7 +4611,7 @@
    "phone2": "",
    "warning": "Gewijzigd door de organisator, kijk op de website voor de laatste info.",
    "cancelled": false,
-   "last_change": "2026-11-14T20:22:25+01:00",
+   "last_change": "2026-11-19T11:23:07+01:00",
    "id": "81a50f952a83"
   },
   {
