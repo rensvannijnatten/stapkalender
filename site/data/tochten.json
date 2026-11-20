@@ -1,15 +1,16 @@
 {
- "generated": "2026-11-19T11:23:07+01:00",
- "from": "2026-11-19",
- "until": "2027-01-18",
+ "generated": "2026-11-20T11:03:26+01:00",
+ "from": "2026-11-20",
+ "until": "2027-01-19",
  "sources": {
   "wsvl": {
    "ok": true,
    "count": 172
   },
   "kwbn": {
-   "ok": true,
-   "count": 85
+   "ok": false,
+   "count": 84,
+   "error": "HTTPSConnectionPool(host='www.wandel.nl', port=443): Read timed out. (read timeout=30.0)"
   },
   "adeps": {
    "ok": true,
@@ -17,62 +18,6 @@
   }
  },
  "tochten": [
-  {
-   "source_url": "https://www.wandel.nl/evenementen/kijkuit-route-castricum/",
-   "promoter": "KWbN",
-   "land": "NL",
-   "date": "2026-11-19",
-   "name": "Kijk-Uit Route",
-   "organizer": "Wandelsportvereniging \"De Laatste Loodjes\"",
-   "address": "Dorpshuis \"De Kern\", Overtoom , 15, 1901EW Castricum",
-   "city": "Castricum",
-   "lat": 52.545603,
-   "lon": 4.663762,
-   "distances": [
-    10
-   ],
-   "start_time": "10:00-10:01",
-   "description": "Dit is een Groepswandeling\n\nVoor aanmelding is verplicht\n\nDeze wandeling wordt georganiseerd door Cor Brasser m.m.v. DLL\n\nCor heeft deze groepswandeling uitgezet en is de wandelleider\n\nEr zijn geen kosten aan verbonden, maar alle kosten onderweg zijn voor eigen rekening.",
-   "website": "http://www.wsvdelaatsteloodjes.nl/",
-   "email": "tochtcoordinator@wsvdelaatsteloodjes.nl",
-   "phone1": "06-13555254",
-   "phone2": "",
-   "warning": "",
-   "cancelled": false,
-   "last_change": "2026-11-14T20:22:25+01:00",
-   "id": "d0afa54c354d"
-  },
-  {
-   "source_url": "https://www.wandel.be/wandelkalender/8500/",
-   "promoter": "Wandelsport Vlaanderen",
-   "land": "BE",
-   "date": "2026-11-19",
-   "name": "De Botermolen",
-   "organizer": "Bosuiltjes",
-   "address": "KLJ, Putsebaan 115, 3140 Keerbergen",
-   "city": "Keerbergen",
-   "lat": 51.0078986,
-   "lon": 4.6402828,
-   "distances": [
-    3,
-    5,
-    7,
-    9,
-    12,
-    17,
-    25
-   ],
-   "start_time": "08:00-15:00",
-   "description": "Landelijke wegen.",
-   "website": "https://bosuiltjes.be",
-   "email": "ps16@telenet.be",
-   "phone1": "+32(0)499 72 06 40",
-   "phone2": "",
-   "warning": "",
-   "cancelled": false,
-   "last_change": "2026-11-14T20:22:25+01:00",
-   "id": "80a156c8096c"
-  },
   {
    "source_url": "https://www.wandel.be/wandelkalender/8501/",
    "promoter": "Wandelsport Vlaanderen",
@@ -6791,17 +6736,19 @@
     6,
     8,
     11,
-    20
+    19,
+    25,
+    28
    ],
    "start_time": "08:00-15:00",
-   "description": "None",
+   "description": "Trek je wandelschoenen aan en geniet van een gezellige wandeltocht in het groene Herselt. Er is een route voor iedereen. Wandel langs rustige wegen en groene paden: ideaal om te ontspannen en te genieten van de natuur.",
    "website": "http://www.delustigestappers.be",
    "email": "johan.vanassche@skynet.be",
    "phone1": "+32(0)496 67 25 80",
    "phone2": "",
    "warning": "",
    "cancelled": false,
-   "last_change": "2026-11-14T20:22:25+01:00",
+   "last_change": "2026-11-20T11:03:26+01:00",
    "id": "7dcf5928c313"
   },
   {
@@ -8326,6 +8273,37 @@
    "cancelled": false,
    "last_change": "2026-11-18T11:12:28+01:00",
    "id": "312661c3a63e"
+  },
+  {
+   "source_url": "https://www.wandel.be/wandelkalender/8795/",
+   "promoter": "Wandelsport Vlaanderen",
+   "land": "BE",
+   "date": "2027-01-19",
+   "name": "Rondom Deurne",
+   "organizer": "Sporton vzw",
+   "address": "SOK, Hasseltsebaan 43, 3290 Deurne",
+   "city": "Deurne",
+   "lat": 51.0400875,
+   "lon": 5.0968561,
+   "distances": [
+    5,
+    7,
+    10,
+    12,
+    15,
+    17,
+    20
+   ],
+   "start_time": "07:00-15:00",
+   "description": "Winterse wandeling in de omgeving van Deurne (Diest). Je verkent de Rodeberg, de Houterenberg, Oosterbergen en de Vallei van de Drie Beken.",
+   "website": "http://www.sporton.be",
+   "email": "vanbroekhoven@skynet.be",
+   "phone1": "+32(0)13 66 68 46",
+   "phone2": "+32(0)477 22 06 05",
+   "warning": "",
+   "cancelled": false,
+   "last_change": "2026-11-20T11:03:26+01:00",
+   "id": "4954e035a4c4"
   }
  ]
 }
