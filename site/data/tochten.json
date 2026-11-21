@@ -1,16 +1,15 @@
 {
- "generated": "2026-11-20T11:03:26+01:00",
- "from": "2026-11-20",
- "until": "2027-01-19",
+ "generated": "2026-11-21T10:51:48+01:00",
+ "from": "2026-11-21",
+ "until": "2027-01-20",
  "sources": {
   "wsvl": {
    "ok": true,
    "count": 172
   },
   "kwbn": {
-   "ok": false,
-   "count": 84,
-   "error": "HTTPSConnectionPool(host='www.wandel.nl', port=443): Read timed out. (read timeout=30.0)"
+   "ok": true,
+   "count": 86
   },
   "adeps": {
    "ok": true,
@@ -18,38 +17,6 @@
   }
  },
  "tochten": [
-  {
-   "source_url": "https://www.wandel.be/wandelkalender/8501/",
-   "promoter": "Wandelsport Vlaanderen",
-   "land": "BE",
-   "date": "2026-11-20",
-   "name": "Novembertocht",
-   "organizer": "De Margrietestappers vzw",
-   "address": "OC De Schouw, Statiestraat 115, 8810 Lichtervelde",
-   "city": "Lichtervelde",
-   "lat": 51.0252493,
-   "lon": 3.1347584,
-   "distances": [
-    5,
-    10,
-    11,
-    14,
-    16,
-    18,
-    19,
-    23
-   ],
-   "start_time": "08:00-15:00",
-   "description": "Geniet van een licht glooiend parcours naar het zuidoosten van Lichtervelde naar het Huwynsbos en de bijzondere rustpost De Radar.",
-   "website": "http://www.margrietestappers.be",
-   "email": "johan.allemeersch5@telenet.be",
-   "phone1": "+32(0)478 26 41 92",
-   "phone2": "",
-   "warning": "",
-   "cancelled": false,
-   "last_change": "2026-11-18T11:12:28+01:00",
-   "id": "a3c862cdc002"
-  },
   {
    "source_url": "https://www.wandel.nl/evenementen/freark-van-hallumwandeltocht-hallum/",
    "promoter": "KWbN",
@@ -691,11 +658,11 @@
    "description": "Salle Annexe du Hall Omnisports\nOpenbaar vervoer: Gare SNCB à 600m (attention le dimanche, un train toutes les 2h)",
    "website": "",
    "email": "",
-   "phone1": "",
+   "phone1": "08 638 94 43",
    "phone2": "",
    "warning": "",
    "cancelled": false,
-   "last_change": "2026-11-14T20:28:37+01:00",
+   "last_change": "2026-11-21T10:51:48+01:00",
    "id": "5693b85ea04d"
   },
   {
@@ -2842,6 +2809,7 @@
    "distances": [
     5,
     10,
+    15,
     20
    ],
    "start_time": "",
@@ -2852,7 +2820,7 @@
    "phone2": "",
    "warning": "",
    "cancelled": false,
-   "last_change": "2026-11-14T20:28:37+01:00",
+   "last_change": "2026-11-21T10:51:48+01:00",
    "id": "126e1a167a17"
   },
   {
@@ -3870,20 +3838,19 @@
    "lon": 5.4137323,
    "distances": [
     4,
-    6,
+    10,
     12,
-    15,
-    20
+    19
    ],
    "start_time": "07:00-15:00",
-   "description": "Start 20 km tot 13.00u. Vertrek langs historische teutenhuizen in het centrum van Eksel en wandelen door de Dommelvallei.",
+   "description": "Start 19 km tot 13.00u. Vertrek in Wijchmaal waar u over rustige wegen en paadjes kan wandelen langs de Dommelvallei naar de rustpost in 't buurthuis op het Hoksent in Eksel.",
    "website": "http://www.bosdraverseksel.be",
    "email": "keyaerts.marie@outlook.com",
    "phone1": "+32(0)497 68 61 89",
    "phone2": "",
    "warning": "",
    "cancelled": false,
-   "last_change": "2026-11-14T20:22:25+01:00",
+   "last_change": "2026-11-21T10:51:48+01:00",
    "id": "71cf66f8b3ef"
   },
   {
@@ -5819,6 +5786,31 @@
    "cancelled": false,
    "last_change": "2026-11-14T20:22:25+01:00",
    "id": "b678c872622d"
+  },
+  {
+   "source_url": "https://www.wandel.nl/evenementen/snerttocht-wsc-vosmeer-oudvossemeer/",
+   "promoter": "KWbN",
+   "land": "NL",
+   "date": "2026-12-30",
+   "name": "Snerttocht WSC Vosmeer",
+   "organizer": "Stichting Wandelsportcomité Vosmeer",
+   "address": "dorpshuis de Vossenkuil, Bou Kooijmanstraat 48, 4698AM Oud-Vossemeer",
+   "city": "Oud-Vossemeer",
+   "lat": 51.569756,
+   "lon": 4.196894,
+   "distances": [
+    5
+   ],
+   "start_time": "18:00-19:00",
+   "description": "Doe mee aan een gezellige winterwandeling van circa 4,5 km in Oud-Vossemeer.\nStart tussen 18 en 19 uur in dorpshuis de Vossenkuil te Oud-Vossemeer. Je geniet onderweg van een broodje worst, chocomel en na afloop van snert en poffertjes.\nVergeet je verlichting en hesje niet en puzzel mee tijdens de wandeling voor extra plezier.",
+   "website": "http://zevendorpentocht.com/",
+   "email": "wscvosmeer@gmail.com",
+   "phone1": "06-13108484",
+   "phone2": "",
+   "warning": "",
+   "cancelled": false,
+   "last_change": "2026-11-21T10:51:48+01:00",
+   "id": "803f6bcb0b8f"
   },
   {
    "source_url": "https://www.wandel.be/wandelkalender/8618/",
@@ -8304,6 +8296,62 @@
    "cancelled": false,
    "last_change": "2026-11-20T11:03:26+01:00",
    "id": "4954e035a4c4"
+  },
+  {
+   "source_url": "https://www.wandel.be/wandelkalender/8796/",
+   "promoter": "Wandelsport Vlaanderen",
+   "land": "BE",
+   "date": "2027-01-20",
+   "name": "Bubbels midweekwandeling",
+   "organizer": "WSV Egmont Zottegem vzw",
+   "address": "OC Strijpen, Sint-Andriessteenweg 163, 9620 Strijpen",
+   "city": "Strijpen",
+   "lat": 50.8682899,
+   "lon": 3.7909702,
+   "distances": [
+    7,
+    10,
+    14,
+    18,
+    21
+   ],
+   "start_time": "07:00-15:00",
+   "description": "Langs de mooiste plekjes van Zottegem via rustige wegen en paadjes. Klinken op het nieuwe jaar! Inschrijving ook mogelijk tot 14.00u in rustpost: Sint-Goriksstraat 13 in Sint-Goriks-Oudenhove. Rustpost sluit om 17.00u.",
+   "website": "http://www.wandelclubegmont.be",
+   "email": "info@wandelclubegmont.be",
+   "phone1": "+32(0)9 324 67 46",
+   "phone2": "+32(0)497 46 37 97",
+   "warning": "",
+   "cancelled": false,
+   "last_change": "2026-11-21T10:51:48+01:00",
+   "id": "00c6e2338181"
+  },
+  {
+   "source_url": "https://www.wandel.nl/evenementen/recreatietocht-vlissingen-jan2/",
+   "promoter": "KWbN",
+   "land": "NL",
+   "date": "2027-01-20",
+   "name": "Recreatietocht 3e woensdag januari",
+   "organizer": "W.S.V. Willen Is Kunnen",
+   "address": "De Lammerenburg, Zuidbeekseweg 22, 4386ND Vlissingen",
+   "city": "Vlissingen",
+   "lat": 51.465049,
+   "lon": 3.560072,
+   "distances": [
+    5,
+    7.5,
+    10
+   ],
+   "start_time": "08:30-09:30",
+   "description": "Recreatietocht van 5, 7,5 of 10 km met duidelijke routebeschrijving.\nInschrijfgeld € 2,50 inclusief koffie/thee.",
+   "website": "http://www.wikvlissingen.nl/",
+   "email": "klankex2@zeelandnet.nl",
+   "phone1": "06-16712373",
+   "phone2": "",
+   "warning": "Gewijzigd door de organisator, kijk op de website voor de laatste info.",
+   "cancelled": false,
+   "last_change": "2026-11-21T10:51:48+01:00",
+   "id": "862eaf4af565"
   }
  ]
 }

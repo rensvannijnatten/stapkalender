@@ -2608,6 +2608,38 @@
    "website": "http://www.wsvret.nl/"
   }
  },
+ "https://www.wandel.nl/evenementen/71e-cantharel-internationale-vierdaagse-apeldoorn-apeldoorn/": {
+  "date": "2027-07-13",
+  "lastmod": "2026-11-19T12:50:42.01Z",
+  "multi_day": true,
+  "tocht": {
+   "address": "vv Victoria Boys, Berghuizerweg 153, 7312SN Apeldoorn",
+   "cancelled": false,
+   "city": "Apeldoorn",
+   "date": "2027-07-13",
+   "description": "Wandelen rond Apeldoorn is wandelen door pure natuur. Niet voor niets wordt deze vierdaagse ook wel ‘de groenste vierdaagse van Nederland’ genoemd. Je kunt ook 1, 2 of drie dagen wandelen.",
+   "distances": [
+    12,
+    20,
+    30
+   ],
+   "email": "administratie@4daagseapeldoorn.nl",
+   "id": "32c025b01062",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "72e Cantharel Internationale Vierdaagse Apeldoorn",
+   "organizer": "Stichting Internationale Vierdaagse Apeldoorn",
+   "phone1": "0657002085",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/71e-cantharel-internationale-vierdaagse-apeldoorn-apeldoorn/",
+   "start_time": "07:00-11:30",
+   "warning": "Gewijzigd door de organisator, kijk op de website voor de laatste info.",
+   "website": "http://www.4daagseapeldoorn.nl/"
+  }
+ },
  "https://www.wandel.nl/evenementen/8-van-11-wandeltocht/": {
   "date": "2027-05-04",
   "lastmod": "2026-10-07T12:38:13.81Z",
@@ -6160,6 +6192,138 @@
    "website": "http://www.hunzeloopwandeltocht.nl/"
   }
  },
+ "https://www.wandel.nl/evenementen/int-vierdaagsewandeltochtenapeldoorn-dagtochtdag1/": {
+  "date": "2027-07-15",
+  "lastmod": "2026-11-19T12:50:42.057Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "vv Victoria Boys, Berghuizerweg 153, 7312SN Apeldoorn",
+   "cancelled": false,
+   "city": "Apeldoorn",
+   "date": "2027-07-15",
+   "description": "Wandelen rond Apeldoorn is wandelen door pure natuur. Niet voor niets wordt deze vierdaagse ook wel ‘de groenste vierdaagse van Nederland’ genoemd. Je kunt ook aan losse etappes deelnemen.",
+   "distances": [
+    12,
+    20,
+    30,
+    40
+   ],
+   "email": "administratie@4daagseapeldoorn.nl",
+   "id": "85504897039f",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "72e Cantharel Int. Vierdaagse Wandeltochten Apeldoorn - dag 3",
+   "organizer": "Stichting Internationale Vierdaagse Apeldoorn",
+   "phone1": "06-57002085",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/int-vierdaagsewandeltochtenapeldoorn-dagtochtdag1/",
+   "start_time": "06:30-11:30",
+   "warning": "Gewijzigd door de organisator, kijk op de website voor de laatste info.",
+   "website": "http://www.4daagseapeldoorn.nl/"
+  }
+ },
+ "https://www.wandel.nl/evenementen/int-vierdaagsewandeltochtenapeldoorn-dagtochtdag2/": {
+  "date": "2027-07-14",
+  "lastmod": "2026-11-19T12:50:41.98Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "vv Victoria Boys, Berghuizerweg 153, 7312SN Apeldoorn",
+   "cancelled": false,
+   "city": "Apeldoorn",
+   "date": "2027-07-14",
+   "description": "Wandelen rond Apeldoorn is wandelen door pure natuur. Niet voor niets wordt deze vierdaagse ook wel ‘de groenste vierdaagse van Nederland’ genoemd. Je kunt ook 1, 2 of drie dagen wandelen.",
+   "distances": [
+    12,
+    20,
+    30,
+    40
+   ],
+   "email": "administratie@4daagseapeldoorn.nl",
+   "id": "aff956f7e57e",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "72e Cantharel Int. Vierdaagse Wandeltochten Apeldoorn Dag 2",
+   "organizer": "Stichting Internationale Vierdaagse Apeldoorn",
+   "phone1": "06-57002085",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/int-vierdaagsewandeltochtenapeldoorn-dagtochtdag2/",
+   "start_time": "06:30-11:30",
+   "warning": "Gewijzigd door de organisator, kijk op de website voor de laatste info.",
+   "website": "http://www.4daagseapeldoorn.nl/"
+  }
+ },
+ "https://www.wandel.nl/evenementen/int-vierdaagsewandeltochtenapeldoorn-dagtochtdag4/": {
+  "date": "2027-07-16",
+  "lastmod": "2026-11-19T12:50:42.103Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "vv Victoria Boys, Berghuizerweg 153, 7312SN Apeldoorn",
+   "cancelled": false,
+   "city": "Apeldoorn",
+   "date": "2027-07-16",
+   "description": "Wandelen rond Apeldoorn is wandelen door pure natuur. Niet voor niets wordt deze vierdaagse ook wel ‘de groenste vierdaagse van Nederland’ genoemd. Je kunt ook 1, 2 of drie dagen wandelen.",
+   "distances": [
+    12,
+    20,
+    30,
+    40
+   ],
+   "email": "administratie@4daagseapeldoorn.nl",
+   "id": "48847c1d3156",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "72e Cantharel Int. Vierdaagse Wandeltochten Apeldoorn - dagtocht dag 4",
+   "organizer": "Stichting Internationale Vierdaagse Apeldoorn",
+   "phone1": "06-57002085",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/int-vierdaagsewandeltochtenapeldoorn-dagtochtdag4/",
+   "start_time": "06:30-11:30",
+   "warning": "Gewijzigd door de organisator, kijk op de website voor de laatste info.",
+   "website": "http://www.4daagseapeldoorn.nl/"
+  }
+ },
+ "https://www.wandel.nl/evenementen/int-vierdaagsewandeltochtenapeldoorn/": {
+  "date": "2027-07-13",
+  "lastmod": "2026-11-19T12:50:41.933Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "vv Victoria Boys, Berghuizerweg 153, 7312SN Apeldoorn",
+   "cancelled": false,
+   "city": "Apeldoorn",
+   "date": "2027-07-13",
+   "description": "Wandelen rond Apeldoorn is wandelen door pure natuur. Niet voor niets wordt deze vierdaagse ook wel ‘de groenste vierdaagse van Nederland’ genoemd. Je kunt ook 1, 2 of drie dagen wandelen.",
+   "distances": [
+    12,
+    20,
+    30,
+    40
+   ],
+   "email": "administratie@4daagseapeldoorn.nl",
+   "id": "34e86c69e369",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "72e Cantharel Int. Vierdaagse Wandeltochten Apeldoorn Dag 1",
+   "organizer": "Stichting Internationale Vierdaagse Apeldoorn",
+   "phone1": "06-57002085",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/int-vierdaagsewandeltochtenapeldoorn/",
+   "start_time": "06:30-11:30",
+   "warning": "Gewijzigd door de organisator, kijk op de website voor de laatste info.",
+   "website": "http://www.4daagseapeldoorn.nl/"
+  }
+ },
  "https://www.wandel.nl/evenementen/internationalevierdaagseafstandsmarsennijmegen/": {
   "date": "2027-07-20",
   "lastmod": "2026-08-18T13:44:22.973Z",
@@ -6969,36 +7133,6 @@
    "start_time": "09:00-14:30",
    "warning": "",
    "website": "https://www.kerstwandeling.org/"
-  }
- },
- "https://www.wandel.nl/evenementen/kijkuit-route-castricum/": {
-  "date": "2026-11-19",
-  "lastmod": "2026-10-13T16:38:30.573Z",
-  "multi_day": false,
-  "tocht": {
-   "address": "Dorpshuis \"De Kern\", Overtoom , 15, 1901EW Castricum",
-   "cancelled": false,
-   "city": "Castricum",
-   "date": "2026-11-19",
-   "description": "Dit is een Groepswandeling\n\nVoor aanmelding is verplicht\n\nDeze wandeling wordt georganiseerd door Cor Brasser m.m.v. DLL\n\nCor heeft deze groepswandeling uitgezet en is de wandelleider\n\nEr zijn geen kosten aan verbonden, maar alle kosten onderweg zijn voor eigen rekening.",
-   "distances": [
-    10
-   ],
-   "email": "tochtcoordinator@wsvdelaatsteloodjes.nl",
-   "id": "d0afa54c354d",
-   "land": "NL",
-   "last_change": "",
-   "lat": null,
-   "lon": null,
-   "name": "Kijk-Uit Route",
-   "organizer": "Wandelsportvereniging \"De Laatste Loodjes\"",
-   "phone1": "06-13555254",
-   "phone2": "",
-   "promoter": "KWbN",
-   "source_url": "https://www.wandel.nl/evenementen/kijkuit-route-castricum/",
-   "start_time": "10:00-10:01",
-   "warning": "",
-   "website": "http://www.wsvdelaatsteloodjes.nl/"
   }
  },
  "https://www.wandel.nl/evenementen/kilometervretermars/": {
@@ -8182,6 +8316,39 @@
    "start_time": "08:00-12:00",
    "warning": "",
    "website": "http://www.wsvret.nl/"
+  }
+ },
+ "https://www.wandel.nl/evenementen/middenveluwewandeltocht/": {
+  "date": "2027-03-06",
+  "lastmod": "2026-11-19T12:50:41.9Z",
+  "multi_day": true,
+  "tocht": {
+   "address": "Van der Valk hotel Apeldoorn De Cantharel, Van Golsteinlaan 20, 7339GT UGCHELEN",
+   "cancelled": false,
+   "city": "UGCHELEN",
+   "date": "2027-03-06",
+   "description": "",
+   "distances": [
+    5,
+    10,
+    15,
+    20
+   ],
+   "email": "wandeltochten@4daagseapeldoorn.nl",
+   "id": "571b886be7f4",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "9e Midden Veluwe Wandeltocht",
+   "organizer": "Stichting Internationale Vierdaagse Apeldoorn",
+   "phone1": "06-22482333",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/middenveluwewandeltocht/",
+   "start_time": "09:00-14:00",
+   "warning": "Gewijzigd door de organisator, kijk op de website voor de laatste info.",
+   "website": "http://4daagseapeldoorn.nl/"
   }
  },
  "https://www.wandel.nl/evenementen/midweek-poldertocht-noordeloos/": {
@@ -11104,7 +11271,7 @@
  },
  "https://www.wandel.nl/evenementen/rondje-edamvolendam-edam/": {
   "date": "2026-12-02",
-  "lastmod": "2026-11-18T22:51:16.467Z",
+  "lastmod": "2026-11-20T09:51:11.057Z",
   "multi_day": false,
   "tocht": {
    "address": "HR \"De Fortuna\", Spuistraat 3, 1135AV Edam",
@@ -11950,6 +12117,36 @@
    "website": "http://www.theworldofwalking.nl/"
   }
  },
+ "https://www.wandel.nl/evenementen/snerttocht-wsc-vosmeer-oudvossemeer/": {
+  "date": "2026-12-30",
+  "lastmod": "2026-11-19T17:50:42.353Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "dorpshuis de Vossenkuil, Bou Kooijmanstraat 48, 4698AM Oud-Vossemeer",
+   "cancelled": false,
+   "city": "Oud-Vossemeer",
+   "date": "2026-12-30",
+   "description": "Doe mee aan een gezellige winterwandeling van circa 4,5 km in Oud-Vossemeer.\nStart tussen 18 en 19 uur in dorpshuis de Vossenkuil te Oud-Vossemeer. Je geniet onderweg van een broodje worst, chocomel en na afloop van snert en poffertjes.\nVergeet je verlichting en hesje niet en puzzel mee tijdens de wandeling voor extra plezier.",
+   "distances": [
+    5
+   ],
+   "email": "wscvosmeer@gmail.com",
+   "id": "803f6bcb0b8f",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "Snerttocht WSC Vosmeer",
+   "organizer": "Stichting Wandelsportcomité Vosmeer",
+   "phone1": "06-13108484",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/snerttocht-wsc-vosmeer-oudvossemeer/",
+   "start_time": "18:00-19:00",
+   "warning": "",
+   "website": "http://zevendorpentocht.com/"
+  }
+ },
  "https://www.wandel.nl/evenementen/snerttochtambulare/": {
   "date": "2027-02-06",
   "lastmod": "2026-06-10T13:32:50.477Z",
@@ -12507,9 +12704,9 @@
    "website": "http://www.kennedymars.org/"
   }
  },
- "https://www.wandel.nl/evenementen/taribush-lente-wandelfestival-dwingeloo/": {
+ "https://www.wandel.nl/evenementen/taribush-wandelmarathon-dwingeloo/": {
   "date": "2027-03-27",
-  "lastmod": "2026-10-06T10:39:05.353Z",
+  "lastmod": "2026-11-19T15:50:58.033Z",
   "multi_day": false,
   "tocht": {
    "address": "kamp de Marke, Lheebroek 30 A, 7991PM Dwingeloo",
@@ -12518,20 +12715,21 @@
    "date": "2027-03-27",
    "description": "Op 27 maart organiseert Taribush voor de 16e keer een bijzonder wandelfestival, waarbij we voor de tweede keer een wandelmarathon organiseren. Een unieke wandeltocht van 42 of 21 kilometer, ditmaal\ndwars door het hart van Drenthe.\nOm de rust en beleving van de natuur te behouden, wordt er gewerkt met kleine startgroepen. Zo voelt de tocht niet massaal en is er onderweg volop ruimte om te genieten van het landschap.\nDe 42 en 21 is een A naar B route. De aankomst is bij een van onze locaties Taribush Kamp de Marke. Waar de deelnemers met de bus naar het startpunt\nvan de wandeling worden gebracht. De wandelaars die de 21 kilometer lopen beginnen halverwege de route van de 42 kilometer.\nOp en rond de start en finish locatie is ruimte voor een hapje, een drankje en muziek. Ook onderweg staan er op een aantal pauzepunten nog muzikanten. Na afloop loop je weer kamp de marke op, dat ondertussen omgetoverd is tot een klein festivalterrein waar het tot ongeveer 23.00 uur gezellig blijft met live muziek en bandjes in ontspannen festivalsfeer.\nGa jij de uitdaging aan en beleef deze bijzondere wandelmarathon.",
    "distances": [
+    21,
     42
    ],
    "email": "organisatie@tari.nl",
-   "id": "3694b054be7e",
+   "id": "4104c31c441d",
    "land": "NL",
    "last_change": "",
    "lat": null,
    "lon": null,
    "name": "Taribush Wandelmarathon",
-   "organizer": "Dwingeloër Wandelvereniging Door Oefening Sterk",
+   "organizer": "Stichting Taribush Festivals",
    "phone1": "050-2112266",
    "phone2": "",
    "promoter": "KWbN",
-   "source_url": "https://www.wandel.nl/evenementen/taribush-lente-wandelfestival-dwingeloo/",
+   "source_url": "https://www.wandel.nl/evenementen/taribush-wandelmarathon-dwingeloo/",
    "start_time": "07:00-08:30",
    "warning": "",
    "website": "https://taribushfestival.nl/"
@@ -14725,7 +14923,7 @@
  },
  "https://www.wandel.nl/evenementen/winter-strand-duinwandeling/": {
   "date": "2027-02-06",
-  "lastmod": "2026-09-20T15:35:45.437Z",
+  "lastmod": "2026-11-20T12:01:57.093Z",
   "multi_day": true,
   "tocht": {
    "address": "Eetcafé de Zon, Voorstraat 54, 1949BJ Wijk aan Zee",
@@ -14759,7 +14957,7 @@
  },
  "https://www.wandel.nl/evenementen/winter-wandeltocht-zundert/": {
   "date": "2027-01-10",
-  "lastmod": "2026-06-11T10:39:53.24Z",
+  "lastmod": "2026-11-19T17:50:42.307Z",
   "multi_day": false,
   "tocht": {
    "address": "Café Zaal Schuttershof, Klein Zundertseweg 38, 4882BH Klein Zundert",
