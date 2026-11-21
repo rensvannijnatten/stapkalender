@@ -38,6 +38,15 @@ jobs:
         continue-on-error: true
         run: python -m scraper.main
 
+      # Een bron die even plat ligt (bv. een time-out) krijgt een kwartier later nog een kans.
+      - name: Mislukte bronnen opnieuw proberen
+        id: retry
+        if: steps.scrape.outcome == 'failure'
+        continue-on-error: true
+        run: |
+          sleep 900
+          python -m scraper.main --failed
+
       # main.py schrijft nooit een lege tochten.json; bij een kapotte bron blijven
       # de vorige gegevens van die bron staan en zijn de andere bronnen wel bijgewerkt.
       - name: Wijzigingen committen
@@ -53,9 +62,9 @@ jobs:
           fi
 
       - name: Mislukt als een bron faalde
-        if: steps.scrape.outcome == 'failure'
+        if: steps.scrape.outcome == 'failure' && steps.retry.outcome != 'success'
         run: |
-          echo "::error::Minstens één bron leverde 0 tochten op of gaf een fout. Zie de stap 'Scrapen'."
+          echo "::error::Minstens één bron leverde 0 tochten op of gaf een fout, ook bij de tweede poging. Zie de stappen 'Scrapen' en 'Mislukte bronnen opnieuw proberen'."
           exit 1
 
   deploy:
@@ -67,7 +76,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment2.outputs.page_url }}
     steps:
       - uses: actions/checkout@v5
         with:
@@ -83,11 +92,22 @@ jobs:
           grep -q "?v=$v" site/index.html
           grep -q "const VERSION = \"$v\";" site/sw.js
 
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
 
-      - uses: actions/upload-pages-artifact@v4
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site
 
+      # Soms ziet deploy-pages het net geüploade artefact nog niet ("No artifacts named
+      # github-pages"). Dan na een halve minuut nog één keer.
       - id: deployment
-        uses: actions/deploy-pages@v4
+        continue-on-error: true
+        uses: actions/deploy-pages@v5
+
+      - name: Even wachten voor tweede poging
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 30
+
+      - id: deployment2
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v5

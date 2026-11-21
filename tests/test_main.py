@@ -33,3 +33,11 @@ def test_parse_km_and_norm():
     assert parse_km("10,0km 09:00-13:00 uur") == 10.0
     assert parse_km("12.5 km") == 12.5
     assert norm_distances([10.0, 5.0, 12.5, 5.0, None]) == [5, 10, 12.5]
+
+
+def test_failed_keys():
+    from scraper.main import failed_keys
+    doc = {"sources": {"wsvl": {"ok": True, "count": 3},
+                       "kwbn": {"ok": False, "count": 2, "error": "timeout"}}}
+    assert failed_keys(doc) == {"kwbn"}
+    assert failed_keys({}) == set()

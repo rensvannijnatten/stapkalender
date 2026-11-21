@@ -4,7 +4,10 @@ Exit-code 1 als een bron faalt of 0 tochten oplevert. De andere bronnen worden d
 bijgewerkt; voor de kapotte bron blijven de vorige gegevens staan. Is het totaal 0, dan
 wordt er niets geschreven.
 
-Gebruik:  python -m scraper.main [--days 60] [--only wsvl,kwbn,adeps]
+Gebruik:  python -m scraper.main [--days 60] [--only wsvl,kwbn,adeps] [--failed]
+
+--failed draait alleen de bronnen die in de vorige tochten.json als mislukt staan
+(voor een tweede poging later in dezelfde workflow-run).
 """
 
 from __future__ import annotations
@@ -30,11 +33,15 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TZ = ZoneInfo("Europe/Brussels")
 
 
-def load_previous(path: str) -> list[dict]:
+def load_previous(path: str) -> dict:
     if not os.path.exists(path):
-        return []
+        return {}
     with open(path, encoding="utf-8") as f:
-        return json.load(f).get("tochten", [])
+        return json.load(f)
+
+
+def failed_keys(doc: dict) -> set[str]:
+    return {k for k, v in doc.get("sources", {}).items() if not v.get("ok")}
 
 
 def merge(fresh: list[Tocht], previous: list[dict], now: str) -> list[dict]:
@@ -66,13 +73,22 @@ def run(args) -> int:
         KWbNSource(session, data_dir, geocoder),
         AdepsSource(session, data_dir),
     ]
-    if args.only:
+    prev_doc = load_previous(out_path)
+    previous = prev_doc.get("tochten", [])
+    if args.failed:
+        keep = failed_keys(prev_doc)
+        if not keep:
+            log.info("Geen mislukte bronnen in de vorige run")
+            return 0
+        sources = [s for s in sources if s.key in keep]
+    elif args.only:
         keep = set(args.only.split(","))
         sources = [s for s in sources if s.key in keep]
 
-    previous = load_previous(out_path)
     fresh: list[Tocht] = []
-    status: dict[str, dict] = {}
+    # bronnen die nu niet draaien behouden hun vorige status
+    status: dict[str, dict] = {k: v for k, v in prev_doc.get("sources", {}).items()
+                               if k not in {s.key for s in sources}}
     failed = False
     for src in sources:
         log.info("== %s", src.promoter)
@@ -126,6 +142,7 @@ def main() -> None:
     p = argparse.ArgumentParser()
     p.add_argument("--days", type=int, default=60)
     p.add_argument("--only", default="")
+    p.add_argument("--failed", action="store_true")
     args = p.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     sys.exit(run(args))
