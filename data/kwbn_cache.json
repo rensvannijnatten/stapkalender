@@ -1138,38 +1138,6 @@
    "website": "https://www.olat.nl/olat-wandeldagen"
   }
  },
- "https://www.wandel.nl/evenementen/463e-individuele-wandeltocht-rs80-nr-3-ijsselstein/": {
-  "date": "2026-11-08",
-  "lastmod": "2025-11-18T12:46:06.95Z",
-  "multi_day": true,
-  "tocht": {
-   "address": "VV IJsselstein Sportpark Groenvliet, Heemradenlaan 5, 3403NK IJsselstein",
-   "cancelled": false,
-   "city": "IJsselstein",
-   "date": "2026-11-08",
-   "description": "IJsselstein - een wandeltocht vol historie, natuur en met de pont over de Lek\n\nWil je deze wandeltocht op eigen gelegenheid wandelen? Dat kan door op de groene pijl naast ‘Inschrijven!’ te klikken. De inschrijving is van 7 november vanaf 16.00 uur t/m zondag 22 november 23.00 uur. De wandeltocht loop je wanneer je maar wilt al is het in de zomer. Dit doe je aan de hand van een routebeschrijving of GPS-bestand die door RS80 via een link ter beschikking wordt gesteld.\n\nLet op: Dit is geen georganiseerde wandeltocht.\n\nVoor RS80 is het de allereerste keer dat we een wandeltocht van 10, 15 en 25 km starten vanuit IJsselstein.\n\nIJsselstein kreeg in 1310 stadsrechten en er werden stadsmuren, poorten en grachten aangelegd om de stad te beschermen.\n\nJe houdt vandaag de 366 meter hoge Gerbrandytoren langdurig in zicht. Je loopt door natuurgebied De Bossenwaard en maakt kennis met Vestigstad Vianen, met de imposante Lekpoort, het fraaie stadhuis, dat doet denken aan een kasteel en de stadsmuur. De oudste delen dateren uit de 14e eeuw.\n\nJe gaat over de Mozesburg en met de pont over de Lek. Er zijn geen extra kosten aan verbonden.\n\nDe tekst gaat onder de foto's door.",
-   "distances": [
-    10,
-    15,
-    25
-   ],
-   "email": "coordinator@rs80.nl",
-   "id": "d87af6be12a3",
-   "land": "NL",
-   "last_change": "",
-   "lat": null,
-   "lon": null,
-   "name": "463e Individuele Wandeltocht RS80 nr. 3",
-   "organizer": "Stichting Randstad Serie '80",
-   "phone1": "06 23842661",
-   "phone2": "",
-   "promoter": "KWbN",
-   "source_url": "https://www.wandel.nl/evenementen/463e-individuele-wandeltocht-rs80-nr-3-ijsselstein/",
-   "start_time": "08:00-17:00",
-   "warning": "",
-   "website": "http://www.rs80.nl/"
-  }
- },
  "https://www.wandel.nl/evenementen/464e-individuele-wandeltocht-rs80-nr-4-wassenaar/": {
   "date": "2026-11-22",
   "lastmod": "2025-06-05T14:28:27.597Z",
@@ -10002,40 +9970,6 @@
    "start_time": "08:00-13:00",
    "warning": "",
    "website": "https://zwolle-wandel.nl/"
-  }
- },
- "https://www.wandel.nl/evenementen/pepernotenwandeling/": {
-  "date": "2026-11-21",
-  "lastmod": "2025-07-02T10:26:33.647Z",
-  "multi_day": true,
-  "tocht": {
-   "address": "Clubgebouw De Trekvogels, Adelaarslaan 1, 7331AW Apeldoorn",
-   "cancelled": false,
-   "city": "Apeldoorn",
-   "date": "2026-11-21",
-   "description": "",
-   "distances": [
-    5,
-    10,
-    15,
-    20,
-    25
-   ],
-   "email": "riaharmelink@outlook.com",
-   "id": "f8524322a6c6",
-   "land": "NL",
-   "last_change": "",
-   "lat": null,
-   "lon": null,
-   "name": "Pepernotenwandeling",
-   "organizer": "Apeldoornse Wandelvereniging De Trekvogels",
-   "phone1": "055-3660518",
-   "phone2": "",
-   "promoter": "KWbN",
-   "source_url": "https://www.wandel.nl/evenementen/pepernotenwandeling/",
-   "start_time": "09:00-13:00",
-   "warning": "Gewijzigd door de organisator, kijk op de website voor de laatste info.",
-   "website": ""
   }
  },
  "https://www.wandel.nl/evenementen/pepernotenwandeltocht-apeldoorn/": {
