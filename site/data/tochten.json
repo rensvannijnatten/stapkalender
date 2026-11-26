@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-25T12:19:51+01:00",
- "from": "2026-11-25",
- "until": "2027-01-24",
+ "generated": "2026-11-26T11:55:58+01:00",
+ "from": "2026-11-26",
+ "until": "2027-01-25",
  "sources": {
   "wsvl": {
    "ok": true,
-   "count": 171
+   "count": 172
   },
   "kwbn": {
    "ok": true,
@@ -1056,18 +1056,19 @@
    "lat": 52.511499,
    "lon": 5.048701,
    "distances": [
+    5,
     10,
     15
    ],
    "start_time": "09:30-10:00",
-   "description": "Inschrijven mogelijk vanaf 09:00 uur.\nDe Groepstart is om 09:30, maar ieder loopt zijn eigen tempo.\nStarten is mogelijk tot 10:00.\n\nInschrijfgeld : € 6,00 bondsleden € 5,00 DLL leden € 4,00.\nBij voorkeur ter plekke met PIN betalen.\n\nHiervoor ontvangt men een kop koffie/thee, een routebeschrijving\nen een GPX download van de route is ook aanwezig.",
+   "description": "Inschrijven mogelijk vanaf 09:00 uur.\nDe Groepstart is om 09:30, maar ieder loopt zijn eigen tempo.\nIndividueel starten is mogelijk tot 10:00.\n\nInschrijfgeld : € 6,00 bondsleden € 5,00 DLL leden € 4,00.\nBij voorkeur ter plekke met PIN betalen.\n\nHiervoor ontvangt men een kop koffie/thee, een routebeschrijving\nen een GPX download van de route is ook aanwezig.",
    "website": "http://www.wsvdelaatsteloodjes.nl/",
    "email": "tochtcoordinator@wsvdelaatsteloodjes.nl",
    "phone1": "06-13555254",
    "phone2": "",
    "warning": "",
    "cancelled": false,
-   "last_change": "2026-11-19T11:23:07+01:00",
+   "last_change": "2026-11-26T11:55:58+01:00",
    "id": "b1b2916ace98"
   },
   {
@@ -8304,6 +8305,41 @@
    "cancelled": false,
    "last_change": "2026-11-25T12:19:51+01:00",
    "id": "a98ad4e1174f"
+  },
+  {
+   "source_url": "https://www.wandel.be/wandelkalender/8817/",
+   "promoter": "Wandelsport Vlaanderen",
+   "land": "BE",
+   "date": "2027-01-25",
+   "name": "Wintertocht",
+   "organizer": "Koninklijke Wandelclub AVIAT Sint-Truiden vzw",
+   "address": "Gemeentelijke Feestzaal Aalst, Aalst-Dorp 25, 3800 Sint-Truiden",
+   "city": "Sint-Truiden",
+   "lat": 50.7816668,
+   "lon": 5.210982,
+   "distances": [
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    13,
+    15,
+    17,
+    19,
+    21
+   ],
+   "start_time": "07:00-15:00",
+   "description": "Winters wandelen door een Haspengouws Landschap. Langs Landelijke en holle wegen, door rustige kerkdorpjes en langs verschillende mooie Haspengouwse vierkanthoeves.",
+   "website": "http://www.aviatsinttruiden.be",
+   "email": "info@aviatsinttruiden.be",
+   "phone1": "+32(0)495 20 34 63",
+   "phone2": "",
+   "warning": "",
+   "cancelled": false,
+   "last_change": "2026-11-26T11:55:58+01:00",
+   "id": "6f70f740bb93"
   }
  ]
 }

@@ -1,4 +1,36 @@
 {
+ "https://www.wandel.nl/evenementen/100bruggenloop/": {
+  "date": "2027-09-25",
+  "lastmod": "2026-11-25T16:50:08.47Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "Van der Werfpark, Kruitschip 10, 2311RS Leiden",
+   "cancelled": false,
+   "city": "Leiden",
+   "date": "2027-09-25",
+   "description": "Tijdens de 100 Bruggenloop wandel je 19,5 km over 100 bruggen of 12,5 of 8,5 km. De route start vanaf het Van der Werfpark en gaat dwars door het centrum van Leiden langs veel bezienswaardigheden, door diverse parken en door de Hortus Botanicus. De wandelaar wordt ontvangen met een kopje koffie/thee en gaat vervolgens op pad met een rijk geïllustreerd wandelboekje. Na afloop ontvangt iedereen een mooie medaille.",
+   "distances": [
+    8.5,
+    12.5,
+    19.5
+   ],
+   "email": "Info@100bruggenloop.nl",
+   "id": "69d064b6f970",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "100 Bruggenloop",
+   "organizer": "Prokwadraat",
+   "phone1": "071-5233485",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/100bruggenloop/",
+   "start_time": "08:00-11:00",
+   "warning": "",
+   "website": "https://www.100bruggenloop.nl/"
+  }
+ },
  "https://www.wandel.nl/evenementen/11-stedenwandeltocht-etappe1/": {
   "date": "2027-05-04",
   "lastmod": "2026-10-07T12:38:13.747Z",
@@ -121,7 +153,7 @@
  },
  "https://www.wandel.nl/evenementen/11-stedenwandeltocht-etappe5/": {
   "date": "2027-05-08",
-  "lastmod": "2026-10-07T12:38:13.967Z",
+  "lastmod": "2026-11-26T09:51:02.593Z",
   "multi_day": false,
   "tocht": {
    "address": "Parkeerterrein, Harddraversdijk 1, 9101WX Dokkum",
@@ -7576,6 +7608,38 @@
    "website": "http://www.leekstermeerwandeltocht.nl/"
   }
  },
+ "https://www.wandel.nl/evenementen/leidenwalk-leiden/": {
+  "date": "2027-04-11",
+  "lastmod": "2026-11-25T16:50:08.393Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "Stadsparkeerplan Haagweg 8, Haagweg 8, 2311AA Leiden",
+   "cancelled": false,
+   "city": "Leiden",
+   "date": "2027-04-11",
+   "description": "De LeidenWalk, dé wandeltocht voor het hele gezin! Kies uit drie verschillende afstanden: 5. 10 km of 20 km.",
+   "distances": [
+    5,
+    10,
+    20
+   ],
+   "email": "info@leidenwalk.nl",
+   "id": "e5988f9f3ad7",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "LeidenWalk",
+   "organizer": "Prokwadraat",
+   "phone1": "071-5235530",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/leidenwalk-leiden/",
+   "start_time": "09:00-12:00",
+   "warning": "",
+   "website": "https://www.leidenwalk.nl/"
+  }
+ },
  "https://www.wandel.nl/evenementen/lekkeruitwaaieninsamenwerkingmetivn/": {
   "date": "2027-01-03",
   "lastmod": "2026-01-05T00:17:06.657Z",
@@ -9839,6 +9903,36 @@
    "website": "https://www.wandelcentrum-vtm.nl/"
   }
  },
+ "https://www.wandel.nl/evenementen/oranjewandeling-leiden/": {
+  "date": "2027-04-24",
+  "lastmod": "2026-11-25T16:50:08.44Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "Van der Werfpark, Kruitschip 10, 2311RS Leiden",
+   "cancelled": false,
+   "city": "Leiden",
+   "date": "2027-04-24",
+   "description": "Het wandelevenement brengt de wandelaar door het mooie karakteristieke centrum van Leiden. Met een routebeschrijving in een verzorgd boekje wandel je langs de plekken in Leiden waar de geschiedenis van het Koningshuis (en andere hoogwaardigheidsbekleders) wordt verteld.",
+   "distances": [
+    5
+   ],
+   "email": "info@groepswijzer.nl",
+   "id": "3d855c6525fd",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "Oranjewandeling",
+   "organizer": "Prokwadraat",
+   "phone1": "071-5233485",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/oranjewandeling-leiden/",
+   "start_time": "12:00-14:00",
+   "warning": "",
+   "website": "http://www.prokwadraat.nl/"
+  }
+ },
  "https://www.wandel.nl/evenementen/oringertocht/": {
   "date": "2027-01-16",
   "lastmod": "2026-06-14T18:47:07.167Z",
@@ -9936,6 +10030,40 @@
    "start_time": "09:00-14:00",
    "warning": "Gewijzigd door de organisator, kijk op de website voor de laatste info.",
    "website": "https://www.sdsdenhaag.nl/"
+  }
+ },
+ "https://www.wandel.nl/evenementen/peelwandeltocht-deurne/": {
+  "date": "2027-10-03",
+  "lastmod": "2026-11-25T13:46:11.683Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "ORO Het Rijtven gebouw De Honingpot, Den Dreef 17, 5751NS Deurne",
+   "cancelled": false,
+   "city": "Deurne",
+   "date": "2027-10-03",
+   "description": "Vanuit het gezellige café de Honingppot gaan de routes in de omgeving van Deurne door bossen en landerijen.\nDe route wordt aangegeven met linten en pijlen. Tevens ontvangen deelnemrs een kleurrijke routebeschrijving.\n\nTrailrunners zijn van harte welkom.\n\nZie ook op de website:\nhttps://www.av-lgd.nl/wandelgroep/wandeltochten-av-lgd/",
+   "distances": [
+    5,
+    10,
+    15,
+    20,
+    30
+   ],
+   "email": "info@av-lgd.nl",
+   "id": "d1468b0e2db1",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "Herfstwandeltocht & Trailrun AV-LGD",
+   "organizer": "Atletiekvereniging Lopersgroep Deurne",
+   "phone1": "06-34601671",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/peelwandeltocht-deurne/",
+   "start_time": "08:00-14:00",
+   "warning": "",
+   "website": "https://www.av-lgd.nl/"
   }
  },
  "https://www.wandel.nl/evenementen/peperbuswandeltocht/": {
@@ -11110,15 +11238,16 @@
  },
  "https://www.wandel.nl/evenementen/rondje-edamvolendam-edam/": {
   "date": "2026-12-02",
-  "lastmod": "2026-11-20T09:51:11.057Z",
+  "lastmod": "2026-11-25T16:50:08.19Z",
   "multi_day": false,
   "tocht": {
    "address": "HR \"De Fortuna\", Spuistraat 3, 1135AV Edam",
    "cancelled": false,
    "city": "Edam",
    "date": "2026-12-02",
-   "description": "Inschrijven mogelijk vanaf 09:00 uur.\nDe Groepstart is om 09:30, maar ieder loopt zijn eigen tempo.\nStarten is mogelijk tot 10:00.\n\nInschrijfgeld : € 6,00 bondsleden € 5,00 DLL leden € 4,00.\nBij voorkeur ter plekke met PIN betalen.\n\nHiervoor ontvangt men een kop koffie/thee, een routebeschrijving\nen een GPX download van de route is ook aanwezig.",
+   "description": "Inschrijven mogelijk vanaf 09:00 uur.\nDe Groepstart is om 09:30, maar ieder loopt zijn eigen tempo.\nIndividueel starten is mogelijk tot 10:00.\n\nInschrijfgeld : € 6,00 bondsleden € 5,00 DLL leden € 4,00.\nBij voorkeur ter plekke met PIN betalen.\n\nHiervoor ontvangt men een kop koffie/thee, een routebeschrijving\nen een GPX download van de route is ook aanwezig.",
    "distances": [
+    5,
     10,
     15
    ],
@@ -12314,6 +12443,36 @@
    "start_time": "08:00-13:00",
    "warning": "",
    "website": "http://www.dewandelendekrabben.nl/"
+  }
+ },
+ "https://www.wandel.nl/evenementen/stadswandeldag-leiden-leiden/": {
+  "date": "2027-04-04",
+  "lastmod": "2026-11-25T16:50:08.347Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "Stadhuisplein Leiden, Stadhuisplein 1, 2311EJ Leiden",
+   "cancelled": false,
+   "city": "Leiden",
+   "date": "2027-04-04",
+   "description": "Op zondag 4 april organiseren wij de Stadswandeldag Leiden.\nEr is keus uit een aantal unieke stadswandelingen van een uur met gids.\nStarten vanaf 13.00 uur",
+   "distances": [
+    2.5
+   ],
+   "email": "info@groepswijzer.nl",
+   "id": "e8ebc4e56f73",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "Stadswandeldag Leiden",
+   "organizer": "Prokwadraat",
+   "phone1": "071-5233485",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/stadswandeldag-leiden-leiden/",
+   "start_time": "13:00-13:01",
+   "warning": "",
+   "website": "http://www.prokwadraat.nl/evenementen"
   }
  },
  "https://www.wandel.nl/evenementen/stamppot-tocht/": {
@@ -13805,6 +13964,41 @@
    "website": "http://www.wandel.nl/"
   }
  },
+ "https://www.wandel.nl/evenementen/voorjaarswandeltocht-deurne/": {
+  "date": "2027-04-25",
+  "lastmod": "2026-11-25T13:46:11.637Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "Toon Kortoomspark, Griendtsveenseweg 80, 5753SB Deurne",
+   "cancelled": false,
+   "city": "Deurne",
+   "date": "2027-04-25",
+   "description": "Op zondag 25 april organiseert Atletiek Vereniging Lopersgroep Deurne de jaarlijkse Lentewandeltocht en Trailrun.\nEen leuk actief uitje voor het hele gezin in de omgeving van Helenaveen door de Peel.\nDe startlocatie is tevens het eindpunt.\nDe routes zijn voorzien van pijlen en linten.\nTevens ontvangen de deelnemers een uitgebreide kleurrijke routebeschrijving.\nVoor de vroege vogels is starten mogelijk vanaf 7.30 uur. De afstanden 30 en 40 km kunnen tot uiterlijk 10.00 uur inschrijven, de 15 km en 20 km tot 12.00 uur en de 5 km en 10 km tot 14.00 uur.\n\nHonden zijn welkom, mits aangelijnd.\n\nKortom een gevarieerde, leerzame en ontspannen wandeltocht en trailrun in de natuur.\nNu nog een aangenaam zonnetje.",
+   "distances": [
+    5,
+    10,
+    15,
+    20,
+    30,
+    40
+   ],
+   "email": "info@av-lgd.nl",
+   "id": "96244a3b2666",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "Lentewandeltocht & Trailrun AV-LGD",
+   "organizer": "Atletiekvereniging Lopersgroep Deurne",
+   "phone1": "06-34601671",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/voorjaarswandeltocht-deurne/",
+   "start_time": "07:30-14:00",
+   "warning": "",
+   "website": "https://www.av-lgd.nl/"
+  }
+ },
  "https://www.wandel.nl/evenementen/voorjaarswandeltocht-een/": {
   "date": "2027-04-10",
   "lastmod": "2026-10-19T11:39:50.977Z",
@@ -15192,7 +15386,7 @@
  },
  "https://www.wandel.nl/evenementen/winterserie-gemert/": {
   "date": "2027-01-17",
-  "lastmod": "2026-06-09T20:42:45.42Z",
+  "lastmod": "2026-11-25T17:50:40.457Z",
   "multi_day": false,
   "tocht": {
    "address": "Clubhuis/Blokhut, De Hoef 22, 5421ZK Gemert",
@@ -15869,6 +16063,39 @@
    "start_time": "13:00-14:00",
    "warning": "",
    "website": "http://www.winterwonderwandeling.nl/"
+  }
+ },
+ "https://www.wandel.nl/evenementen/wnm-krekentochten-20-ouwerkerk/": {
+  "date": "2027-08-14",
+  "lastmod": "2026-11-25T15:52:34.203Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "Brasserie Het Vijfde Caisson, Weg van de Buitenlandse Pers 3, 3405RJ Ouwerkerk",
+   "cancelled": false,
+   "city": "Ouwerkerk",
+   "date": "2027-08-14",
+   "description": "Voor de vierde keer organiseren wij deze wandeltocht(en). De routes zijn perfect uitgezet d.m.v. witte krijtpijlen op de weg en in de natuurgebieden aangegeven via rood-witte linten.\n\nDe routes zijn deels verhard en deels onverhard door de natuur op Schouwen-Duiveland. U wandelt langs de Oosterschelde, door het krekengebied van Ouwerkerk en door natuurgebieden alsook door de prachtige weidse polders van Duiveland.\n\nOp de rustposten kunt u genieten van koffie, thee, frisdrank en uiteraard verse Zeeuwse bolussen.\nEen paar kilometer voor de finish wacht een leuke, frisse verrassing op u.\nTenslotte is na het afmelden in het startbureau een heerlijke lunch verkrijgbaar inclusief een warm of koud drankje in onze brasserie voor een speciale krekentochtenprijs.\n\nUiteraard kunnen wandelboekjes worden afgestempeld, waarbij een bijzonder mooie sticker beschikbaar is.\n\nNieuw dit jaar is dat de tochten ook via QR-code digitaal als gpx-bestand beschikbaar zullen zijn op de dag zelf",
+   "distances": [
+    5,
+    10,
+    15,
+    25
+   ],
+   "email": "krekentochten@gmail.com",
+   "id": "23e800607b30",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "WNM Krekentochten 2.0",
+   "organizer": "Stichting Nationaal Monument Watersnood 1953",
+   "phone1": "06-40912295",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/wnm-krekentochten-20-ouwerkerk/",
+   "start_time": "08:00-13:00",
+   "warning": "",
+   "website": "https://watersnoodmuseum.nl/krekentochten/"
   }
  },
  "https://www.wandel.nl/evenementen/ws78-de-brummense-trage-wandeling-brummen/": {
