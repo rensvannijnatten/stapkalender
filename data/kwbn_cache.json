@@ -2344,14 +2344,14 @@
  },
  "https://www.wandel.nl/evenementen/60e-olat-winterserie-vanuit-heeze-heeze/": {
   "date": "2026-12-13",
-  "lastmod": "2025-09-11T19:51:09.623Z",
+  "lastmod": "2026-11-26T11:08:43.047Z",
   "multi_day": false,
   "tocht": {
    "address": "Manege Meulendijks, Strabrechtseheideweg 6, 5591TZ Heeze",
    "cancelled": false,
    "city": "Heeze",
    "date": "2026-12-13",
-   "description": "Onze routebouwers zijn weer op pad geweest en hebben een prachtige tocht voor je uitgezet welke wordt gehouden op 13 december vanuit Heeze.\n\nDeze wandeling voert je langs de mooiste plekjes in en rondom Heeze: denk aan de Strabrechtse Heide, uitgestrekte bossen, kronkelende zandpaden, schilderachtige vergezichten en misschien zelfs een laagje ochtendmist of rijp op het gras – typisch zo'n winterwandeling waar je energie van krijgt.\n\nOf je nu een ervaren wandelaar bent of gewoon zin hebt in een frisse neus en een fijne route: deze tocht wil je niet missen!\n\nBenieuwd wat je te wachten staat?\nIn november 2026 verschijnt een uitgebreide vooruitblik op onze website www.olat.nl/winterserie én op onze Facebookpagina. Daar krijg je alvast een voorproefje van de route, de afstanden en de beleving.\n\nTip: schrijf je van tevoren in via de voor-inschrijving – deze gaat ongeveer twee maanden voor de tocht open. Het is snel, makkelijk én je vermijdt wachtrijen op de wandeldag zelf. Maar ook last-minute meewandelen is mogelijk: je kunt je op de dag zelf nog inschrijven bij het inschrijfbureau.\n\nDus: trek je wandelschoenen aan, neem je wandelmaatje mee (of geniet lekker in je eentje), en kom de natuur rondom Heeze ontdekken.",
+   "description": "Muts op, veters strikken en de Strabrechtse Heide op! Op zondag 13 december 2026 wandel je tijdens de 60e OLAT Winterserie vanuit Heeze langs stille vennen en over brede zandpaden. Misschien ligt er rijp op het gras, misschien hangt er nog wat mist boven de heide. Welke afstand je ook kiest, van 10 tot 40 kilometer, onderweg wacht een warme beker soep.",
    "distances": [
     10,
     15,
@@ -2903,6 +2903,40 @@
    "start_time": "07:30-13:30",
    "warning": "",
    "website": "http://www.airbornewandeltocht.nl/"
+  }
+ },
+ "https://www.wandel.nl/evenementen/amor-tocht/": {
+  "date": "2027-10-02",
+  "lastmod": "2026-11-27T09:51:04.92Z",
+  "multi_day": true,
+  "tocht": {
+   "address": "Het Ravijn, Piet Heinweg 16, 7441GZ Nijverdal",
+   "cancelled": false,
+   "city": "Nijverdal",
+   "date": "2027-10-02",
+   "description": "Nijverdal gelegen naast het Nationaal Park de Sallandse Heuvelrug. Een indrukwekkend natuurgebied gelegen tussen Hellendoorn en Holten.\n\nLandschap en flora\nHet Nationaal Park Sallandse Heuvelrug staat bekend om de uitgestrekte bossen, zandverstuivingen en golvende heidevelden. Het landschap kenmerkt zich door een gevarieerde planten- en dierenwereld en nodigt uit om te wandelen.\n\nWandelen en beleven\nEen netwerk van wandelpaden maakt het eenvoudig om de Sallandse Heuvelrug te verkennen. Het gebied verwelkomt elke bezoeker met weidse uitzichten en onverwachte doorkijkjes.\nDe Sallandse Heuvelrug is niet alleen een plek om de natuur te ervaren, maar ook om even stil te staan bij de schoonheid van het Sallandse landschap. Wanneer u in dit park wandelt kunt u genieten van een stukje authentieke natuur, waar tijd en haast even vergeten lijken.",
+   "distances": [
+    5,
+    10,
+    15,
+    20,
+    30
+   ],
+   "email": "cfh.kok@hetnet.nl",
+   "id": "68e0785f5ff4",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "46e AMOR-tocht",
+   "organizer": "Vereniging Wandelsport Haarle",
+   "phone1": "06-21108005",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/amor-tocht/",
+   "start_time": "09:00-13:00",
+   "warning": "",
+   "website": "http://www.wandelsporthaarle.nl/"
   }
  },
  "https://www.wandel.nl/evenementen/amsterdam-tilburg/": {
@@ -4119,6 +4153,36 @@
    "start_time": "08:45-10:00",
    "warning": "",
    "website": "http://www.theworldofwalking.nl/"
+  }
+ },
+ "https://www.wandel.nl/evenementen/de-oliebollensnerttocht-zaandam/": {
+  "date": "2026-12-30",
+  "lastmod": "2026-11-27T09:51:04.827Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "Voetbalclub Hercules, Kuilpad 1F, 1509AS Zaandam",
+   "cancelled": false,
+   "city": "Zaandam",
+   "date": "2026-12-30",
+   "description": "",
+   "distances": [
+    12.5
+   ],
+   "email": "tochtcoordinator@wsvdelaatsteloodjes.nl",
+   "id": "849f3aec60ab",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "De Oliebollen-Snerttocht",
+   "organizer": "Wandelsportvereniging \"De Laatste Loodjes\"",
+   "phone1": "06-13555254",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/de-oliebollensnerttocht-zaandam/",
+   "start_time": "09:30-10:00",
+   "warning": "",
+   "website": "http://www.wsvdelaatsteloodjes.nl/"
   }
  },
  "https://www.wandel.nl/evenementen/de-ontwijkwandeltocht-donkerbroek/": {
@@ -6909,6 +6973,36 @@
    "website": "http://www.posthoorn-wijchen.nl/"
   }
  },
+ "https://www.wandel.nl/evenementen/kerstlichtjestocht-koog-ad-zaan/": {
+  "date": "2026-12-18",
+  "lastmod": "2026-11-27T09:51:04.78Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "Buurtcentrum De Vuister, Molenwerf 158 158, 1541WR Koog aan de Zaan",
+   "cancelled": false,
+   "city": "Koog aan de Zaan",
+   "date": "2026-12-18",
+   "description": "",
+   "distances": [
+    8
+   ],
+   "email": "tochtcoordinator@wsvdelaatsteloodjes.nl",
+   "id": "a461d7fc7fc6",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "Kerstlichtjestocht",
+   "organizer": "Wandelsportvereniging \"De Laatste Loodjes\"",
+   "phone1": "06-13555254",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/kerstlichtjestocht-koog-ad-zaan/",
+   "start_time": "19:00-19:01",
+   "warning": "",
+   "website": "http://www.wsvdelaatsteloodjes.nl/"
+  }
+ },
  "https://www.wandel.nl/evenementen/kersttocht/": {
   "date": "2026-12-12",
   "lastmod": "2026-04-24T14:55:27.623Z",
@@ -7509,6 +7603,38 @@
    "website": "http://www.laarbeeksewandel2daagse.nl/"
   }
  },
+ "https://www.wandel.nl/evenementen/lammetjestocht-texel-den-burg-texel/": {
+  "date": "2027-03-29",
+  "lastmod": "2026-11-27T06:51:45.963Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "Odysseus, Emmalaan 65, 1791AT Den Burg Texel",
+   "cancelled": false,
+   "city": "Den Burg Texel",
+   "date": "2027-03-29",
+   "description": "Lammetjes in de wei, kronkelende paadjes en volop frisse voorjaarslucht. Op Tweede Paasdag nodigt Wandelsportvereniging Het Gouden Boltje je uit voor de Lammetjeswandeltocht, een Texelse voorjaarstraditie die teruggaat tot 1991.\n\nKies uit 5, 10, 15 of 25 kilometer en wandel op je eigen tempo langs weilanden, karakteristieke schapenboeten en tuinwallen. De korte route is leuk voor het hele gezin en met 25 kilometer kun je er een flinke wandeldag van maken. Kinderen tot en met 12 jaar wandelen gratis mee.\n\nTrek je wandelschoenen aan, neem iemand mee en kom op Tweede Paasdag de lente op Texel ontdekken!",
+   "distances": [
+    10,
+    15,
+    25
+   ],
+   "email": "info@hetgoudenboltje.nl",
+   "id": "2ed389cd7b78",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "lammetjestocht Texel",
+   "organizer": "Wandelsportvereniging \"Het Gouden Boltje\"",
+   "phone1": "",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/lammetjestocht-texel-den-burg-texel/",
+   "start_time": "10:00-14:00",
+   "warning": "",
+   "website": "http://www.hetgoudenboltje.com/agenda"
+  }
+ },
  "https://www.wandel.nl/evenementen/landgoederentocht-dehaere/": {
   "date": "2027-09-26",
   "lastmod": "2026-09-28T00:38:03.893Z",
@@ -7873,7 +7999,7 @@
  },
  "https://www.wandel.nl/evenementen/lytsedoarpenrintocht/": {
   "date": "2027-04-17",
-  "lastmod": "2026-08-28T20:33:51.99Z",
+  "lastmod": "2026-11-27T07:01:27.637Z",
   "multi_day": false,
   "tocht": {
    "address": "MFC It Joo Oudega (SWF), De Joodyk 2, 8614JK Oudega",
@@ -9277,6 +9403,36 @@
    "website": "http://www.nachtvangulpen.nl/"
   }
  },
+ "https://www.wandel.nl/evenementen/nieuwjaarsloop-den-hoorn-texel/": {
+  "date": "2027-01-10",
+  "lastmod": "2026-11-27T06:51:45.823Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "Strandpaviljoen Paal 9, Hoornderslag 8, 1797RT Den Hoorn Texel",
+   "cancelled": false,
+   "city": "Den Hoorn Texel",
+   "date": "2027-01-10",
+   "description": "Begin het nieuwe jaar met frisse zeelucht en een wandeling door de Texelse duinen! Op zondag 10 januari nodigt Wandelsportvereniging Het Gouden Boltje je uit voor de Nieuwjaarsloop. Strandpaviljoen Paal 9 in Den Hoorn is het start- en eindpunt van deze eerste tocht van de Winterwandelserie Texel 2027.\n\nVanaf Paal 9 wandel je 5 of 10 kilometer op je eigen tempo. Bij de finish krijg je een Nieuwjaarsloopbutton als aandenken. Houd je een wandelboekje bij? Dan ligt er ook een speciale sticker voor je klaar.\n\nWandel mee en praat na afloop gezellig na bij Paal 9, met uitzicht op zee.",
+   "distances": [
+    5
+   ],
+   "email": "info@hetgoudenboltje.nl",
+   "id": "62f495c2ab32",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "Nieuwjaarsloop",
+   "organizer": "Wandelsportvereniging \"Het Gouden Boltje\"",
+   "phone1": "",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/nieuwjaarsloop-den-hoorn-texel/",
+   "start_time": "13:00-14:00",
+   "warning": "",
+   "website": "http://www.hetgoudenboltje.com/agenda"
+  }
+ },
  "https://www.wandel.nl/evenementen/nieuwjaarstocht-wsv-nh-zaandam/": {
   "date": "2027-01-10",
   "lastmod": "2026-06-09T16:31:33Z",
@@ -9374,6 +9530,40 @@
    "start_time": "09:00-12:00",
    "warning": "",
    "website": "http://www.wsv-wik.nl/"
+  }
+ },
+ "https://www.wandel.nl/evenementen/norbertus-wandeltocht-gennep/": {
+  "date": "2027-03-27",
+  "lastmod": "2026-11-27T09:51:04.873Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "Norbertushof, Kleermakersgroes 20, 6591KH Gennep",
+   "cancelled": false,
+   "city": "Gennep",
+   "date": "2027-03-27",
+   "description": "Op Paaszaterdag nodigen de Vrienden van Norbertus je van harte uit voor de jaarlijkse Norbertus Wandeltocht. Een bijzondere wandeling die niet alleen het goede doel ondersteunt, maar ook de perfecte manier is om Pasen in te gaan.\n\nDe opbrengst van deze wandeltocht komt ten goede aan onze rolstoelbus waarmee bewoners of gebruikers van verzorgings-/verpleegcentra en dagverpleging in en om Gennep die rolstoel of rollator gebonden zijn een uitstapje kunnen maken.\n\nKosten 5 euro per persoon.\n\nLet op: Informatietekst gaat hieronder verder.",
+   "distances": [
+    10,
+    15,
+    20,
+    25,
+    40
+   ],
+   "email": "info@vriendenvannorbertus.nl",
+   "id": "73676a0795da",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "Norbertus wandeltocht",
+   "organizer": "Stichting Public Balance",
+   "phone1": "0485-512022",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/norbertus-wandeltocht-gennep/",
+   "start_time": "07:00-13:00",
+   "warning": "",
+   "website": "http://www.vriendenvannorbertus.nl/"
   }
  },
  "https://www.wandel.nl/evenementen/noviomagumtocht/": {
@@ -11459,6 +11649,40 @@
    "website": "http://www.rondjezandhaas.nl/"
   }
  },
+ "https://www.wandel.nl/evenementen/rondomstompwijk/": {
+  "date": "2027-05-16",
+  "lastmod": "2026-11-26T16:51:08.17Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "Kantine sportaccommodatie De Meerhorst, Klaverblad 13, 2266JK Stompwijk",
+   "cancelled": false,
+   "city": "Stompwijk",
+   "date": "2027-05-16",
+   "description": "Hartelijk welkom bij de 15e editie ‘Rondom Stompwijk’, de wandeltocht van IJsclub Nut en Vermaak.\n\nStompwijk bevindt zich tussen prachtige natuurgebieden waarvan enkele zoals Vlietland, Cronesteynpark, Buitenpark en Noord Aa op één of meerdere van de wandelroutes liggen.\nWat alle zes de wandeltochten gemeen hebben is dat ze je de mooiste plekjes in- en rondom Stompwijk laten ontdekken!\n\nWe hopen u dit jaar weer te zien. We doen ons best om voor u telkens weer een aantrekkelijke route uit te stippelen. Dit jaar zijn al de zes route verandert en lopen dan mede over nieuw aangelegen wandelpaden.\n\nVoor wandelaars die in training zijn voor de vierdaagse van Nijmegen, is vooral de 30 km en de 40 km afstand daar uitstekend geschikt voor.\nOok voor dit jaar kunt u de kortste wandelroute, combineren met een boottocht! De totale afstand is dan 10 km waarvan 6,5 km wandelen. Let op! vol = vol dus schrijf je vooral digitaal in voor een plekje op de boot. Alvast veel wandelplezier.\n\nHet is mogelijk online in te schrijven (zie onder), maar dit kan ook bij de start!\n\n(de online inschrijving is nog gestolen tot later bepaalde datum)\n\nBereikbaarheid met Openbaar Vervoer:\nvanaf NS Station Zoetermeer, buslijn 400 halte Stompwijk of vanaf NS station Leiden, buslijn 400 halte Stompwijk.\nVoor andere informatie kunt een e-mail sturen naar wandeltocht@ijsclubstompwijk.nl",
+   "distances": [
+    6.5,
+    15,
+    20,
+    30,
+    40
+   ],
+   "email": "wandeltocht@ijsclubstompwijk.nl",
+   "id": "dcc42e0ce8f3",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "15e Rondom Stompwijk",
+   "organizer": "IJsclub Nut en Vermaak",
+   "phone1": "06-36177253",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/rondomstompwijk/",
+   "start_time": "07:00-12:30",
+   "warning": "Gewijzigd door de organisator, kijk op de website voor de laatste info.",
+   "website": "http://www.ijsclubstompwijk.nl/"
+  }
+ },
  "https://www.wandel.nl/evenementen/rwv-winterserie-3etocht/": {
   "date": "2026-12-06",
   "lastmod": "2026-06-20T11:45:32.867Z",
@@ -11990,7 +12214,7 @@
  },
  "https://www.wandel.nl/evenementen/snertkuier-mnein/": {
   "date": "2027-02-13",
-  "lastmod": "2026-08-28T19:33:37.15Z",
+  "lastmod": "2026-11-27T06:57:05.323Z",
   "multi_day": false,
   "tocht": {
    "address": "Dorpshuis de Mounestien Mûnein, Mounewei 1, 9063JL Mûnein",
@@ -11999,9 +12223,9 @@
    "date": "2027-02-13",
    "description": "De lange traditie van de Snertkuier wordt ook deze winter weer voortgezet. Dat betekent een mooie wandeling door de Trynwâlden, een zandrug in Noordoost Friesland, met verrassende bospaadjes, natuurgebieden, parken en states, rond het startdorp Mûnein (Molenend), en, afhankelijk van de afstand, rond en door o.a. de omliggende dorpen Oudkerk, Giekerk, Oenkerk, Roodkerk etc.\nMet gezellige binnen rustlocaties.\n\nVoor iedereen weer een passende afstand van ongeveer 6, 10, 16 of 26 km. Een kopje koffie of thee bij de start én een kop heerlijke snert in dorpshuis de Mounestien in Mûnein bij de finish is inbegrepen bij het inschrijvingsgeld.\n\nDeelnemen aan de Snertkuier? Schrijf je dan hier ONLINE in via de groene pijl 'INSCHRIJVEN'. Online inschrijven is mogelijk vanaf 1 december 2026 00:01 uur tot en met 10 februari 23:59 uur.\n\nKinderen tot 12 jaar kunnen ook worden ingeschreven via de groene pijl “INSCHRIJVEN” door een ingeschreven wandelaar(ster) en betalen een kindertarief van € 4,-.\n\nDaginschrijving is ook mogelijk, maar kost € 2,- meer. Je start dan in de laatste startgroep van de door jou gekozen afstand.\nLET OP: STARTEN KAN TOT UITERLIJK 10.15 uur!\nFinishen tot uiterlijk 16.00 uur.\nTIP: neem ook contant geld mee voor sommige rustlocaties onderweg",
    "distances": [
-    6,
-    10,
-    16,
+    7,
+    12,
+    18,
     26
    ],
    "email": "wandelen@frieslandbeweegt.frl",
@@ -13310,6 +13534,36 @@
    "start_time": "09:00-15:00",
    "warning": "",
    "website": "http://www.valenciawalkingexperience.com/"
+  }
+ },
+ "https://www.wandel.nl/evenementen/valentijnsloop-texel-den-burg-texel/": {
+  "date": "2027-02-14",
+  "lastmod": "2026-11-27T06:51:45.9Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "Restaurant Pineta-Vakantiepark Dennenoord, Grensweg 114, 1791NK Den Burg Texel",
+   "cancelled": false,
+   "city": "Den Burg Texel",
+   "date": "2027-02-14",
+   "description": "Hart voor wandelen? Vier Valentijnsdag met een frisse wandeling op Texel! Wandelsportvereniging Het Gouden Boltje nodigt je uit voor de Valentijnsloop, de laatste tocht van de Winterwandelserie Texel 2027. Restaurant Pineta op Vakantiepark Dennenoord is het start- en eindpunt.\n\nKies voor 5 of 10 kilometer en wandel op je eigen tempo. Neem je Valentijn, een vriend of vriendin mee, of kom gewoon lekker zelf. Bij de finish krijg je een Valentijnsloopbutton als aandenken. Houd je een wandelboekje bij? Dan ligt er ook een speciale sticker voor je klaar.\n\nWandel mee en sluit de winterserie gezellig af bij Pineta!",
+   "distances": [
+    10
+   ],
+   "email": "info@hetgoudenboltje.nl",
+   "id": "1c29f308ea71",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "Valentijnsloop Texel",
+   "organizer": "Wandelsportvereniging \"Het Gouden Boltje\"",
+   "phone1": "",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/valentijnsloop-texel-den-burg-texel/",
+   "start_time": "13:00-14:00",
+   "warning": "",
+   "website": "http://www.hetgoudenboltje.com/agenda"
   }
  },
  "https://www.wandel.nl/evenementen/varsseveldsewandeltocht/": {
@@ -15935,6 +16189,36 @@
    "start_time": "08:30-12:00",
    "warning": "",
    "website": "https://www.wsvnoordholland.nl/"
+  }
+ },
+ "https://www.wandel.nl/evenementen/winterwandeling-texel-de-koog-texel/": {
+  "date": "2027-01-24",
+  "lastmod": "2026-11-27T06:51:45.853Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "SV de Koog, Boodtlaan 39, 1796BD De Koog Texel",
+   "cancelled": false,
+   "city": "De Koog Texel",
+   "date": "2027-01-24",
+   "description": "Trek je wandelschoenen aan en ontdek het Texelse winterlandschap rond De Koog! Op zondag 24 januari nodigt Wandelsportvereniging Het Gouden Boltje je uit voor de tweede tocht van de Winterwandelserie Texel 2027. We starten en finishen bij de kantine van SV De Koog. De club staat ook wel bekend als De Blauwe Trein.\n\nBij De Blauwe Trein bepaal je zelf je dienstregeling. Je kiest voor 5 of 10 kilometer en wandelt op je eigen tempo. Bij de finish krijg je een Winterwandelingbutton als aandenken. Houd je een wandelboekje bij? Dan ligt er ook een speciale sticker voor je klaar.\n\nWandel gezellig mee en neem gerust iemand mee om samen van winters Texel te genieten!",
+   "distances": [
+    10
+   ],
+   "email": "info@hetgoudenboltje.nl",
+   "id": "f81bc435508d",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "Winterwandeling Texel",
+   "organizer": "Wandelsportvereniging \"Het Gouden Boltje\"",
+   "phone1": "",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/winterwandeling-texel-de-koog-texel/",
+   "start_time": "13:00-14:00",
+   "warning": "",
+   "website": "http://www.hetgoudenboltje.com/agenda"
   }
  },
  "https://www.wandel.nl/evenementen/winterwandeltocht-belfeld/": {

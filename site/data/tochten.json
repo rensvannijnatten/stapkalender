@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-26T11:55:58+01:00",
- "from": "2026-11-26",
- "until": "2027-01-25",
+ "generated": "2026-11-27T11:53:23+01:00",
+ "from": "2026-11-27",
+ "until": "2027-01-26",
  "sources": {
   "wsvl": {
    "ok": true,
@@ -9,44 +9,14 @@
   },
   "kwbn": {
    "ok": true,
-   "count": 89
+   "count": 93
   },
   "adeps": {
    "ok": true,
-   "count": 32
+   "count": 33
   }
  },
  "tochten": [
-  {
-   "source_url": "https://www.wandel.be/wandelkalender/8525/",
-   "promoter": "Wandelsport Vlaanderen",
-   "land": "BE",
-   "date": "2026-11-26",
-   "name": "Landloperswandeling",
-   "organizer": "Wandelclub KVG Stappers Hoogstraten",
-   "address": "Parochiezaal, Poeleinde 4, 2320 Wortel",
-   "city": "Wortel",
-   "lat": 51.4031012,
-   "lon": 4.7621575,
-   "distances": [
-    5,
-    7,
-    12,
-    15,
-    22,
-    32
-   ],
-   "start_time": "07:00-15:00",
-   "description": "Wandelen in Wortel-Kolonie, UNESCO Werelderfgoed. Tocht langs en door oude dreven, bossen, velden, natuurgebied en weilanden. Langs gebouwen van de vroegere landloperskolonie.",
-   "website": "http://www.facebook.com/",
-   "email": "luc.van.dun@telenet.be",
-   "phone1": "+32(0)473 37 52 87",
-   "phone2": "",
-   "warning": "",
-   "cancelled": false,
-   "last_change": "2026-11-14T20:22:25+01:00",
-   "id": "41205862afdf"
-  },
   {
    "source_url": "https://www.wandel.be/wandelkalender/8526/",
    "promoter": "Wandelsport Vlaanderen",
@@ -2739,14 +2709,14 @@
     40
    ],
    "start_time": "08:00-13:00",
-   "description": "Onze routebouwers zijn weer op pad geweest en hebben een prachtige tocht voor je uitgezet welke wordt gehouden op 13 december vanuit Heeze.\n\nDeze wandeling voert je langs de mooiste plekjes in en rondom Heeze: denk aan de Strabrechtse Heide, uitgestrekte bossen, kronkelende zandpaden, schilderachtige vergezichten en misschien zelfs een laagje ochtendmist of rijp op het gras – typisch zo'n winterwandeling waar je energie van krijgt.\n\nOf je nu een ervaren wandelaar bent of gewoon zin hebt in een frisse neus en een fijne route: deze tocht wil je niet missen!\n\nBenieuwd wat je te wachten staat?\nIn november 2026 verschijnt een uitgebreide vooruitblik op onze website www.olat.nl/winterserie én op onze Facebookpagina. Daar krijg je alvast een voorproefje van de route, de afstanden en de beleving.\n\nTip: schrijf je van tevoren in via de voor-inschrijving – deze gaat ongeveer twee maanden voor de tocht open. Het is snel, makkelijk én je vermijdt wachtrijen op de wandeldag zelf. Maar ook last-minute meewandelen is mogelijk: je kunt je op de dag zelf nog inschrijven bij het inschrijfbureau.\n\nDus: trek je wandelschoenen aan, neem je wandelmaatje mee (of geniet lekker in je eentje), en kom de natuur rondom Heeze ontdekken.",
+   "description": "Muts op, veters strikken en de Strabrechtse Heide op! Op zondag 13 december 2026 wandel je tijdens de 60e OLAT Winterserie vanuit Heeze langs stille vennen en over brede zandpaden. Misschien ligt er rijp op het gras, misschien hangt er nog wat mist boven de heide. Welke afstand je ook kiest, van 10 tot 40 kilometer, onderweg wacht een warme beker soep.",
    "website": "https://www.olat.nl/winterserie",
    "email": "dagtochten@olat.nl",
    "phone1": "",
    "phone2": "",
    "warning": "",
    "cancelled": false,
-   "last_change": "2026-11-14T20:22:25+01:00",
+   "last_change": "2026-11-27T11:53:23+01:00",
    "id": "b188246d028b"
   },
   {
@@ -3225,6 +3195,31 @@
    "cancelled": false,
    "last_change": "2026-11-14T20:22:25+01:00",
    "id": "c68bf898af21"
+  },
+  {
+   "source_url": "https://www.wandel.nl/evenementen/kerstlichtjestocht-koog-ad-zaan/",
+   "promoter": "KWbN",
+   "land": "NL",
+   "date": "2026-12-18",
+   "name": "Kerstlichtjestocht",
+   "organizer": "Wandelsportvereniging \"De Laatste Loodjes\"",
+   "address": "Buurtcentrum De Vuister, Molenwerf 158 158, 1541WR Koog aan de Zaan",
+   "city": "Koog aan de Zaan",
+   "lat": 52.457747,
+   "lon": 4.79889,
+   "distances": [
+    8
+   ],
+   "start_time": "19:00-19:01",
+   "description": "",
+   "website": "http://www.wsvdelaatsteloodjes.nl/",
+   "email": "tochtcoordinator@wsvdelaatsteloodjes.nl",
+   "phone1": "06-13555254",
+   "phone2": "",
+   "warning": "",
+   "cancelled": false,
+   "last_change": "2026-11-27T11:53:23+01:00",
+   "id": "a461d7fc7fc6"
   },
   {
    "source_url": "https://www.wandel.nl/evenementen/465e-wandeltocht-rs80-nr-5-bleiswijk/",
@@ -5041,6 +5036,31 @@
    "id": "842c05ed237e"
   },
   {
+   "source_url": "https://www.wandel.nl/evenementen/de-oliebollensnerttocht-zaandam/",
+   "promoter": "KWbN",
+   "land": "NL",
+   "date": "2026-12-30",
+   "name": "De Oliebollen-Snerttocht",
+   "organizer": "Wandelsportvereniging \"De Laatste Loodjes\"",
+   "address": "Voetbalclub Hercules, Kuilpad 1F, 1509AS Zaandam",
+   "city": "Zaandam",
+   "lat": 52.464054,
+   "lon": 4.825265,
+   "distances": [
+    12.5
+   ],
+   "start_time": "09:30-10:00",
+   "description": "",
+   "website": "http://www.wsvdelaatsteloodjes.nl/",
+   "email": "tochtcoordinator@wsvdelaatsteloodjes.nl",
+   "phone1": "06-13555254",
+   "phone2": "",
+   "warning": "",
+   "cancelled": false,
+   "last_change": "2026-11-27T11:53:23+01:00",
+   "id": "849f3aec60ab"
+  },
+  {
    "source_url": "https://www.wandel.nl/evenementen/chocolatewalk/",
    "promoter": "KWbN",
    "land": "NL",
@@ -6286,6 +6306,31 @@
    "id": "2f8f1af2b783"
   },
   {
+   "source_url": "https://www.wandel.nl/evenementen/nieuwjaarsloop-den-hoorn-texel/",
+   "promoter": "KWbN",
+   "land": "NL",
+   "date": "2027-01-10",
+   "name": "Nieuwjaarsloop",
+   "organizer": "Wandelsportvereniging \"Het Gouden Boltje\"",
+   "address": "Strandpaviljoen Paal 9, Hoornderslag 8, 1797RT Den Hoorn Texel",
+   "city": "Den Hoorn Texel",
+   "lat": 53.021208,
+   "lon": 4.711169,
+   "distances": [
+    5
+   ],
+   "start_time": "13:00-14:00",
+   "description": "Begin het nieuwe jaar met frisse zeelucht en een wandeling door de Texelse duinen! Op zondag 10 januari nodigt Wandelsportvereniging Het Gouden Boltje je uit voor de Nieuwjaarsloop. Strandpaviljoen Paal 9 in Den Hoorn is het start- en eindpunt van deze eerste tocht van de Winterwandelserie Texel 2027.\n\nVanaf Paal 9 wandel je 5 of 10 kilometer op je eigen tempo. Bij de finish krijg je een Nieuwjaarsloopbutton als aandenken. Houd je een wandelboekje bij? Dan ligt er ook een speciale sticker voor je klaar.\n\nWandel mee en praat na afloop gezellig na bij Paal 9, met uitzicht op zee.",
+   "website": "http://www.hetgoudenboltje.com/agenda",
+   "email": "info@hetgoudenboltje.nl",
+   "phone1": "",
+   "phone2": "",
+   "warning": "",
+   "cancelled": false,
+   "last_change": "2026-11-27T11:53:23+01:00",
+   "id": "62f495c2ab32"
+  },
+  {
    "source_url": "https://www.am-sport.cfwb.be/adeps/pv_detail.asp?i=27251",
    "promoter": "Adeps",
    "land": "BE",
@@ -6433,6 +6478,34 @@
    "cancelled": false,
    "last_change": "2026-11-14T20:22:25+01:00",
    "id": "955ad9c25762"
+  },
+  {
+   "source_url": "https://www.am-sport.cfwb.be/adeps/pv_detail.asp?i=25989",
+   "promoter": "Adeps",
+   "land": "BE",
+   "date": "2027-01-10",
+   "name": "Point Vert Adeps",
+   "organizer": "Comité de parents École Libre (Sophie Hoet)",
+   "address": "École libre, rue de l'Église 131A, Lonzée",
+   "city": "Lonzée",
+   "lat": 50.5523283,
+   "lon": 4.7246915,
+   "distances": [
+    5,
+    10,
+    15,
+    20
+   ],
+   "start_time": "",
+   "description": "Openbaar vervoer: Gare de Lonzée à 400m.",
+   "website": "",
+   "email": "",
+   "phone1": "0471 619 758",
+   "phone2": "",
+   "warning": "",
+   "cancelled": false,
+   "last_change": "2026-11-27T11:53:23+01:00",
+   "id": "ef5aa04ae419"
   },
   {
    "source_url": "https://www.wandel.be/wandelkalender/8740/",
@@ -8048,6 +8121,31 @@
    "id": "8c612c0770af"
   },
   {
+   "source_url": "https://www.wandel.nl/evenementen/winterwandeling-texel-de-koog-texel/",
+   "promoter": "KWbN",
+   "land": "NL",
+   "date": "2027-01-24",
+   "name": "Winterwandeling Texel",
+   "organizer": "Wandelsportvereniging \"Het Gouden Boltje\"",
+   "address": "SV de Koog, Boodtlaan 39, 1796BD De Koog Texel",
+   "city": "De Koog Texel",
+   "lat": 53.10413,
+   "lon": 4.768629,
+   "distances": [
+    10
+   ],
+   "start_time": "13:00-14:00",
+   "description": "Trek je wandelschoenen aan en ontdek het Texelse winterlandschap rond De Koog! Op zondag 24 januari nodigt Wandelsportvereniging Het Gouden Boltje je uit voor de tweede tocht van de Winterwandelserie Texel 2027. We starten en finishen bij de kantine van SV De Koog. De club staat ook wel bekend als De Blauwe Trein.\n\nBij De Blauwe Trein bepaal je zelf je dienstregeling. Je kiest voor 5 of 10 kilometer en wandelt op je eigen tempo. Bij de finish krijg je een Winterwandelingbutton als aandenken. Houd je een wandelboekje bij? Dan ligt er ook een speciale sticker voor je klaar.\n\nWandel gezellig mee en neem gerust iemand mee om samen van winters Texel te genieten!",
+   "website": "http://www.hetgoudenboltje.com/agenda",
+   "email": "info@hetgoudenboltje.nl",
+   "phone1": "",
+   "phone2": "",
+   "warning": "",
+   "cancelled": false,
+   "last_change": "2026-11-27T11:53:23+01:00",
+   "id": "f81bc435508d"
+  },
+  {
    "source_url": "https://www.wandel.nl/evenementen/winterwandeltochtav-lgd/",
    "promoter": "KWbN",
    "land": "NL",
@@ -8340,6 +8438,37 @@
    "cancelled": false,
    "last_change": "2026-11-26T11:55:58+01:00",
    "id": "6f70f740bb93"
+  },
+  {
+   "source_url": "https://www.wandel.be/wandelkalender/8818/",
+   "promoter": "Wandelsport Vlaanderen",
+   "land": "BE",
+   "date": "2027-01-26",
+   "name": "Bibbertocht",
+   "organizer": "WK Werchter vzw",
+   "address": "Voetbalkantine RAPIDE Wezemaal, Vleugtweg z/n, 3111 Wezemaal",
+   "city": "Wezemaal",
+   "lat": 50.9486871,
+   "lon": 4.750147,
+   "distances": [
+    6,
+    9,
+    12,
+    16,
+    21,
+    25,
+    30
+   ],
+   "start_time": "07:30-14:00",
+   "description": "Wandeling door natuurgebieden Eikelberg, 's Hertogenheide en Wijngaardberg met mooie uitzichten over het Hageland. Lussen onderling combineerbaar.",
+   "website": "http://www.wandelclubwerchter.be",
+   "email": "wkwerchter@gmail.com",
+   "phone1": "+32(0)499 25 64 45",
+   "phone2": "",
+   "warning": "",
+   "cancelled": false,
+   "last_change": "2026-11-27T11:53:23+01:00",
+   "id": "e675e5c84e70"
   }
  ]
 }
