@@ -6093,6 +6093,40 @@
    "website": "http://www.loopgroep.nl/"
   }
  },
+ "https://www.wandel.nl/evenementen/heuvelrugwandeltocht/": {
+  "date": "2027-05-29",
+  "lastmod": "2026-11-27T23:51:39.89Z",
+  "multi_day": false,
+  "tocht": {
+   "address": "Rembrandt College, Rembrandtlaan 2, 3904ZK Veenendaal",
+   "cancelled": false,
+   "city": "Veenendaal",
+   "date": "2027-05-29",
+   "description": "Bossen, heide en vergezichten. Heuvels en kastelen. Wie meedoet aan de Heuvelrug Wandeltocht op zaterdag 29 mei, ervaart hoe mooi de Utrechtse Heuvelrug is. Wandel mee en geniet van een sportieve dag met veel sfeer en gezelligheid!",
+   "distances": [
+    10,
+    15,
+    25,
+    40,
+    50
+   ],
+   "email": "info@heuvelrugwandeltocht.nl",
+   "id": "36f972407e39",
+   "land": "NL",
+   "last_change": "",
+   "lat": null,
+   "lon": null,
+   "name": "22ste Heuvelrug Wandeltocht",
+   "organizer": "Stg. Community Service v.d. Rotary Club Veenendaal",
+   "phone1": "06-51178302",
+   "phone2": "",
+   "promoter": "KWbN",
+   "source_url": "https://www.wandel.nl/evenementen/heuvelrugwandeltocht/",
+   "start_time": "06:00-12:00",
+   "warning": "",
+   "website": "http://www.heuvelrugwandeltocht.nl/"
+  }
+ },
  "https://www.wandel.nl/evenementen/hilversum-walk-hilversum/": {
   "date": "2027-04-18",
   "lastmod": "2026-10-12T15:38:53.06Z",

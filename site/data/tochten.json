@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-27T11:53:23+01:00",
- "from": "2026-11-27",
- "until": "2027-01-26",
+ "generated": "2026-11-28T11:28:55+01:00",
+ "from": "2026-11-28",
+ "until": "2027-01-27",
  "sources": {
   "wsvl": {
    "ok": true,
-   "count": 172
+   "count": 171
   },
   "kwbn": {
    "ok": true,
-   "count": 93
+   "count": 94
   },
   "adeps": {
    "ok": true,
@@ -17,33 +17,6 @@
   }
  },
  "tochten": [
-  {
-   "source_url": "https://www.wandel.be/wandelkalender/8526/",
-   "promoter": "Wandelsport Vlaanderen",
-   "land": "BE",
-   "date": "2026-11-27",
-   "name": "34e Tweedaagse Herfstwandelingen",
-   "organizer": "WSV Horizon Opwijk",
-   "address": "Zaal De Kersenpit, Dorp 46, 1745 Mazenzele",
-   "city": "Mazenzele",
-   "lat": 50.9425027,
-   "lon": 4.171527,
-   "distances": [
-    6,
-    12,
-    18
-   ],
-   "start_time": "07:30-15:00",
-   "description": "Rustige herfstwandeling door deelgemeente Mazenzele, het gehucht Droeshout en het Kravaalbos in herfsttooi om even op adem te komen. Reflecterende kledij is aangeraden.",
-   "website": "https://www.facebook.com/HorizonOpwijk/",
-   "email": "gaston.van.de.voorde@telenet.be",
-   "phone1": "+32(0)478 61 06 08",
-   "phone2": "",
-   "warning": "",
-   "cancelled": false,
-   "last_change": "2026-11-14T20:22:25+01:00",
-   "id": "bd0719c7cff0"
-  },
   {
    "source_url": "https://www.wandel.be/wandelkalender/8503/",
    "promoter": "Wandelsport Vlaanderen",
@@ -8469,6 +8442,34 @@
    "cancelled": false,
    "last_change": "2026-11-27T11:53:23+01:00",
    "id": "e675e5c84e70"
+  },
+  {
+   "source_url": "https://www.wandel.nl/evenementen/open-grenzentocht-bergeijk/",
+   "promoter": "KWbN",
+   "land": "NL",
+   "date": "2027-01-27",
+   "name": "Open Grenzentocht",
+   "organizer": "Wandelsportvereniging \"De Grenslopers\"",
+   "address": "Herberg in het wilde zwijn, Witrijt 28, 5571XH Bergeijk",
+   "city": "Bergeijk",
+   "lat": 51.305556,
+   "lon": 5.24181,
+   "distances": [
+    8,
+    12,
+    16,
+    21
+   ],
+   "start_time": "08:00-14:00",
+   "description": "",
+   "website": "http://degrenslopers.nl/",
+   "email": "publicrelations@degrenslopers.nl",
+   "phone1": "0640685859",
+   "phone2": "",
+   "warning": "",
+   "cancelled": false,
+   "last_change": "2026-11-28T11:28:55+01:00",
+   "id": "dd97c16df600"
   }
  ]
 }
